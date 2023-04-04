@@ -29,7 +29,7 @@ Software Development Life Cycle  is  used by the software industry to design, de
   7.**Maintenance** : After the software application is deployed, it requires ongoing maintenance, updates, and support to ensure that it continues to meet the changing needs of the users.
 
 
-![Sdlclifecycle](images/Sdlcimage1.png)
+![Sdlclifecycle](images/Sdlcimage1.png)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
 
 
 ## SDLC Models
@@ -131,9 +131,7 @@ In this Model, you can start with some of the software specifications and develo
 
 7.**Maintenance**: In the maintenance phase, after deployment of the software in the working environment there may be some bugs, some errors or new updates are required. Maintenance involves debugging and new addition options.
 
-![iterative Model](images/iterativemodel.png)<!-- style = "width:450px;
- height:300px;
- margin-left:250px;"-->
+![iterative Model](images/iterativemodel.png)<!-- style = "width:450px; height:300px; margin-left:250px;"-->
 
 
 **Pros of Iterative Model**
@@ -176,9 +174,7 @@ The Spiral Model Includes the following phases:-
 4.**Planning**: Finally, the next step is planned. The project is reviewed, and a choice made whether to continue with a further period of the spiral. If it is determined to keep, plans are drawn up for the next step of the project.
 
 
-![Spiral Model](images/spiralmodel.jpg)<!-- style = "width:450px;
- height:300px;
- margin-left:250px;"-->
+![Spiral Model](images/spiralmodel.jpg)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
 
 Based on the customer evaluation, the software development process enters the next iteration and subsequently follows the linear approach to implement the feedback suggested by the customer. The process of iterations along the spiral continues throughout the life of the software.
 
@@ -217,9 +213,7 @@ V-model also referred to as the Verification and Validation Model. In this, each
 
 So V-Model contains Verification phases on one side of the Validation phases on the other side. Verification and Validation process is joined by coding phase in V-shape. Hence it is known as V-Model.
 
-![v-model](images/V-model.jpg)<!-- style = "width:450px;
- height:300px;
- margin-left:250px;"-->
+![v-model](images/V-model.jpg)<!-- style = "width:450px;height:300px; margin-left:250px;"-->
 
  The verification of V-model include the following phases:-
 
@@ -314,9 +308,7 @@ The  Incremental Model includes the following steps:-
 4.**Implementation**:In the implementation phase, coding is done for developing software. The design of the software, which is made in the designing phase, is now implemented practically, and final coding is done. Upon completion of this process, the quality of the product working will be enhanced and upgrade to the final system product.
 
 
-![Incremental Model](images/incrementalmodel.png)<!-- style = "width:450px;
- height:300px;
- margin-left:250px;"-->
+![Incremental Model](images/incrementalmodel.png)<!-- style = "width:450px; height:300px; margin-left:250px;"-->
 
 **Pros of Incremental Model**
 
@@ -380,9 +372,7 @@ The Agile Modle includes the following steps :
 6.**Feedback**: After releasing the product, the last step is feedback. In this, the team receives feedback about the product and works through the feedback.
 
 
-![AgileModel](images/agilemodel.png)<!-- style = "width:450px;
- height:300px;
- margin-left:250px;"-->
+![AgileModel](images/agilemodel.png)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
 
 **Pros of Agile Model**
 
@@ -432,9 +422,7 @@ The Prototype Model includes the following steps :-
 
 6.**Implement and maintain the product**: Following comprehensive testing, the final system is put into production after being created based on the final prototype. To reduce downtime and avoid catastrophic breakdowns, the system is regularly maintained.
 
-![PrototypeModel](images/Prototypemodel.png)<!-- style = "width:450px;
- height:300px;
- margin-left:250px;"-->
+![PrototypeModel](images/Prototypemodel.png)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
 
  Prototype Types
 
@@ -505,9 +493,7 @@ The RAD model includes the following steps :-
 5.**Testing & Turnover**: Many of the programming components have already been tested since RAD emphasis reuse. This reduces the overall testing time. But the new part must be tested, and all interfaces must be fully exercised.
 
 
-![RADModel](images/RADmodel.png)<!-- style = "width:450px;
- height:300px;
- margin-left:250px;"-->
+![RADModel](images/RADmodel.png)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
 
 **Pros of RAD Model**
 
@@ -815,9 +801,7 @@ In general, cost drivers can be grouped into four categories:
 * Required development schedule (SCED)
 
 
-![intermediatecocomo](images/intermediatecocomo.PNG)<!-- style = "width:550px;
- height:400px;
- margin-left:180px;"-->
+![intermediatecocomo](images/intermediatecocomo.PNG)<!-- style = "width:550px; height:400px;margin-left:180px;"-->
 
  **Detailed Model**
 
@@ -842,15 +826,11 @@ Software development is done in four phases:
 ### Putnam Resource Allocation Model
 The Lawrence Putnam model describes the time and effort requires finishing a software project of a specified size. Putnam makes a use of a so-called The Norden/Rayleigh Curve to estimate project effort, schedule & defect rate as shown in fig.
 
-![Putnam model](images/putnammodel.jpg)<!-- style = "width:550px;
- height:400px;
- margin-left:180px;"-->
+![Putnam model](images/putnammodel.jpg)<!-- style = "width:550px;height:400px;margin-left:180px;"-->
 
  Putnam noticed that software staffing profiles followed the well known Rayleigh distribution. Putnam used his observation about productivity levels to derive the software equation:
 
- ![Equation](images/putnamformula.png)<!-- style = "width:550px;
- height:100px;
- margin-left:160px;"-->
+ ![Equation](images/putnamformula.png)<!-- style = "width:550px; height:100px;margin-left:160px;"-->
  
 The various terms of this expression are as follows:
 
@@ -873,9 +853,7 @@ Effect of a Schedule change on Cost
 
 Putnam derived the following expression:
 
-![Equation](images/putnamformula.png)<!-- style = "width:550px;
- height:100px;
- margin-left:160px;"-->
+![Equation](images/putnamformula.png)<!-- style = "width:550px;height:100px;margin-left:160px;"-->
                    
 
 Where, K is the total effort expended (in PM) in the product development
