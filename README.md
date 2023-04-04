@@ -667,7 +667,9 @@ The Lawrence Putnam model describes the time and effort requires finishing a sof
 
  Putnam noticed that software staffing profiles followed the well known Rayleigh distribution. Putnam used his observation about productivity levels to derive the software equation:
 
- $ L= CK1/3td4/3 
+ ![Equation](images/putnamformula.png)<!-- style = "width:550px;
+ height:100px;
+ margin-left:160px;"-->
  
 The various terms of this expression are as follows:
 K is the total effort expended (in PM) in product development, and L is the product estimate in KLOC.
@@ -689,7 +691,10 @@ Effect of a Schedule change on Cost
 
 Putnam derived the following expression:
 
-                    L=CkK1/3td4/3
+![Equation](images/putnamformula.png)<!-- style = "width:550px;
+ height:100px;
+ margin-left:160px;"-->
+                   
 
 Where, K is the total effort expended (in PM) in the product development
 
@@ -700,14 +705,12 @@ td corresponds to the time of system and integration testing
 Ck Is the state of technology constant and reflects constraints that impede the progress of the program
 Now by using the above expression, it is obtained that,
 
-K = L3/Ck3td4   
-
-0r
-
-K = C/td4
+![equation 2](images/equation2.png)
 
 For the same product size, C =L3 / Ck3 is a constant.
- 
+
+![equation 3](images/equation3.png)
+
 (As project development effort is equally proportional to project development cost) 
 
 From the above expression, it can be easily observed that when the schedule of a project is compressed, the required development effort as well as project development cost increases in proportion to the fourth power of the degree of compression. It means that a relatively small compression in delivery schedule can result in a substantial penalty of human effort as well as development cost.
