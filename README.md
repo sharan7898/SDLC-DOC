@@ -53,7 +53,7 @@ Software Development Life Cycle  is  used by the software industry to design, de
  7.**Agile Model**
 
  8.**Prototype Model**
- 
+
  9.**RAD Model**
 
 
@@ -115,10 +115,10 @@ All these phases are cascaded to each other in which progress is seen as flowing
 
 ### Iterative Model
 
-         In this Model, you can start with some of the software specifications and develop the first version of the software. After the first version if there is a need to change the software, then a new version of the software is created with a new iteration. Every release of the Iterative Model finishes in an exact and fixed period that is called iteration. The Iterative Model allows the accessing earlier phases, in which the variations made respectively. The final output of the project renewed at the end of the SDLC process.
+In this Model, you can start with some of the software specifications and develop the first version of the software. After the first version if there is a need to change the software, then a new version of the software is created with a new iteration. Every release of the Iterative Model finishes in an exact and fixed period that is called iteration. The Iterative Model allows the accessing earlier phases, in which the variations made respectively. The final output of the project renewed at the end of the SDLC process.
 
 
-     The Iterative model includes the following phases –
+  The Iterative model includes the following phases –
 
 1.**Requirement gathering & analysis** : In this phase, requirements are gathered from customers and check by an analyst whether requirements will fulfil or not. Analyst checks that need will achieve within budget or not. After all of this, the software team skips to the next phase.
 
