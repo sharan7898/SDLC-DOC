@@ -39,13 +39,21 @@ Software Development Life Cycle  is  used by the software industry to design, de
  Here,are the some important models, 
 
  1.**WaterFall Model**
+
  2.**Iterative Model**
+
  3.**Spiral Model**
+
  4.**V-Model**
+
  5.**Big-Bang Model**
+
  6.**Incremental model**
+
  7.**Agile Model**
+
  8.**Prototype Model**
+ 
  9.**RAD Model**
 
 
