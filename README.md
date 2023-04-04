@@ -22,9 +22,9 @@ Software Development Life Cycle  is  used by the software industry to design, de
   6.**Deployment** : The software application is deployed to the production environment, and the end-users begin to use it.
   7.**Maintenance** : After the software application is deployed, it requires ongoing maintenance, updates, and support to ensure that it continues to meet the changing needs of the users.
 
-    ![Sdlclifecycle](/images/Sdlcimage1.png)<!-- style = "width:400px;
- height:300px;
- margin-left:250px;" -->
+    ![Sdlclifecycle](images/Sdlcimage1.png)<!-- style = "width:500px;
+ height:350px;
+ margin-left:170px;" -->
 
 ## SDLC Models
 
@@ -70,7 +70,7 @@ The sequential phases in Waterfall model are −
 
 6.**Maintenance** − There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment
 
-![WaterFallModel](/images/waterfall3.jpg)<!-- style = "width:450px;
+![WaterFallModel](images/waterfall3.jpg)<!-- style = "width:450px;
  height:300px;
  margin-left:250px;"
   -->
@@ -115,7 +115,7 @@ All these phases are cascaded to each other in which progress is seen as flowing
 
 7.**Maintenance**: In the maintenance phase, after deployment of the software in the working environment there may be some bugs, some errors or new updates are required. Maintenance involves debugging and new addition options.
 
-![iterative Model](/images/iterativemodel.png)<!-- style = "width:450px;
+![iterative Model](images/iterativemodel.png)<!-- style = "width:450px;
  height:300px;
  margin-left:250px;"-->
 
@@ -146,7 +146,7 @@ The Spiral Model Includes the following phases:-
 3.**Development and validation**:The next phase is to develop strategies that resolve uncertainties and risks. This process may include activities such as benchmarking, simulation, and prototyping.
 4.**Planning**: Finally, the next step is planned. The project is reviewed, and a choice made whether to continue with a further period of the spiral. If it is determined to keep, plans are drawn up for the next step of the project.
 
-![Spiral Model](/images/spiralmodel.jpg)<!-- style = "width:450px;
+![Spiral Model](images/spiralmodel.jpg)<!-- style = "width:450px;
  height:300px;
  margin-left:250px;"-->
 
@@ -179,7 +179,7 @@ V-model also referred to as the Verification and Validation Model. In this, each
 
 So V-Model contains Verification phases on one side of the Validation phases on the other side. Verification and Validation process is joined by coding phase in V-shape. Hence it is known as V-Model.
 
-![v-model](/images/V-model.jpg)<!-- style = "width:450px;
+![v-model](images/V-model.jpg)<!-- style = "width:450px;
  height:300px;
  margin-left:250px;"-->
 
@@ -247,7 +247,7 @@ The  Incremental Model includes the following steps:-
 3.**Testing**:In the incremental model, the testing phase examines the performance of each existing function as well as additional functionality. In the testing phase, different methods are used to test the behavior of each task.
 4.**Implementation**:In the implementation phase, coding is done for developing software. The design of the software, which is made in the designing phase, is now implemented practically, and final coding is done. Upon completion of this process, the quality of the product working will be enhanced and upgrade to the final system product.
 
-![Incremental Model](/images/incrementalmodel.png)<!-- style = "width:450px;
+![Incremental Model](images/incrementalmodel.png)<!-- style = "width:450px;
  height:300px;
  margin-left:250px;"-->
 
@@ -295,7 +295,7 @@ The Agile Modle includes the following steps :
 5.**Deployment**: In this phase, the team issues a product for the user's work environment.
 6.**Feedback**: After releasing the product, the last step is feedback. In this, the team receives feedback about the product and works through the feedback.
 
-![AgileModel](/images/agilemodel.png)<!-- style = "width:450px;
+![AgileModel](images/agilemodel.png)<!-- style = "width:450px;
  height:300px;
  margin-left:250px;"-->
 
@@ -335,7 +335,7 @@ The Prototype Model includes the following steps :-
 
 6.**Implement and maintain the product**: Following comprehensive testing, the final system is put into production after being created based on the final prototype. To reduce downtime and avoid catastrophic breakdowns, the system is regularly maintained.
 
-![PrototypeModel](/images/Prototypemodel.png)<!-- style = "width:450px;
+![PrototypeModel](images/Prototypemodel.png)<!-- style = "width:450px;
  height:300px;
  margin-left:250px;"-->
 
@@ -392,7 +392,7 @@ The RAD model includes the following steps :-
 4.**Application Modeling**: In this phase application id developed and coding completed. With help of automation tools all data implemented and processed to work as real time.
 5.**Testing & Turnover**: Many of the programming components have already been tested since RAD emphasis reuse. This reduces the overall testing time. But the new part must be tested, and all interfaces must be fully exercised.
 
-![RADModel](/images/RADmodel.png)<!-- style = "width:450px;
+![RADModel](images/RADmodel.png)<!-- style = "width:450px;
  height:300px;
  margin-left:250px;"-->
 
@@ -429,7 +429,8 @@ Software project management is a way of planning and supervising software projec
 
 **Need for Software Management**
 
-There are three software project management needs, and this is:
+There are three software project management needs,
+
 1.Time
 2.Cost
 3.Quality
@@ -633,7 +634,7 @@ In general, cost drivers can be grouped into four categories:
 * Modern programming practices (MODP)
 * Required development schedule (SCED)
 
-![intermediatecocomo](/images/intermediatecocomo.PNG)<!-- style = "width:550px;
+![intermediatecocomo](images/intermediatecocomo.PNG)<!-- style = "width:550px;
  height:400px;
  margin-left:180px;"-->
 
@@ -660,13 +661,13 @@ Software development is done in four phases:
 ### Putnam Resource Allocation Model
 The Lawrence Putnam model describes the time and effort requires finishing a software project of a specified size. Putnam makes a use of a so-called The Norden/Rayleigh Curve to estimate project effort, schedule & defect rate as shown in fig.
 
-![Putnam model](/images/putnammodel.jpg)<!-- style = "width:550px;
+![Putnam model](images/putnammodel.jpg)<!-- style = "width:550px;
  height:400px;
  margin-left:180px;"-->
 
  Putnam noticed that software staffing profiles followed the well known Rayleigh distribution. Putnam used his observation about productivity levels to derive the software equation:
 
- $ L= CKK1/3td4/3 $
+ $ L= CK1/3td4/3 
  
 The various terms of this expression are as follows:
 K is the total effort expended (in PM) in product development, and L is the product estimate in KLOC.
@@ -829,9 +830,9 @@ The SRS is a specification for a specific software product, program, or set of a
 
 **Characteristics of good SRS**
 
-Following are the characteristics of a good SRS document: 
- 
-1.**Correctness**: User review is used to ensure the correctness of requirements stated in the SRS. SRS is said to be correct if it covers all the requirements that are actually expected from the system.
+Following are the characteristics of a good SRS document:
+
+ 1.**Correctness**: User review is used to ensure the correctness of requirements stated in the SRS. SRS is said to be correct if it covers all the requirements that are actually expected from the system.
 
 2.**Completeness**: Completeness of SRS indicates every sense of completion including the numbering of all the pages, resolving the to be determined parts to as much extent as possible as well as covering all the functional and non-functional requirements properly.
 
@@ -852,7 +853,7 @@ Following are the characteristics of a good SRS document:
 10.**Testability**: A SRS should be written in such a way that it is easy to generate test cases and test plans from the document.
 
 11.**Understandable by the customer**: An end user maybe an expert in his/her specific domain but might not be an expert in computer science. Hence, the use of formal notations and symbols should be avoided to as much extent as possible. The language should be kept easy and clear.
- 
+
 12.**Right level of abstraction**: If the SRS is written for the requirements phase, the details should be explained explicitly. Whereas, for a feasibility study, fewer details can be used. Hence, the level of abstraction varies according to the purpose of the SRS.
 
  **Properties of a good SRS document**
