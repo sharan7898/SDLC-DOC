@@ -15,11 +15,17 @@ Software Development Life Cycle  is  used by the software industry to design, de
   The SDLC process typically includes the following stages:
 
   1.**Planning** : This stage involves defining the project scope, goals, and objectives, as well as identifying the resources, risks, and constraints associated with the project.
+
   2.**Requirements gathering** : In this stage, the requirements for the software application are gathered from stakeholders, including end-users, clients, and other relevant parties.
+
   3.**Design** : The design stage involves creating a detailed plan for the software application, including the system architecture, database design, and user interface design.
+
   4.**Development** : During the development stage, the software code is written and the application is built according to the design specifications.
+
   5.**Testing** : Once the software application is built, it undergoes a series of tests to ensure that it meets the functional, performance, and security requirements.
+
   6.**Deployment** : The software application is deployed to the production environment, and the end-users begin to use it.
+
   7.**Maintenance** : After the software application is deployed, it requires ongoing maintenance, updates, and support to ensure that it continues to meet the changing needs of the users.
 
     ![Sdlclifecycle](images/Sdlcimage1.png)<!-- style = "width:500px;
@@ -59,9 +65,6 @@ The sequential phases in Waterfall model are −
 
 2.**System Design** − The requirement specifications from first phase are studied in this phase and the system design is prepared. This system design helps in specifying hardware and system requirements and helps in defining the overall system architecture.
 
-
-
-
 3.**Implementation** − With inputs from the system design, the system is first developed in small programs called units, which are integrated in the next phase. Each unit is developed and tested for its functionality, which is referred to as Unit Testing.
 
 4.**Integration and Testing**  − All the units developed in the implementation phase are integrated into a system after testing of each unit. Post integration the entire system is tested for any faults and failures.
@@ -80,18 +83,26 @@ All these phases are cascaded to each other in which progress is seen as flowing
 **Pros of WaterFall Model**
 
 1.Simple and easy to understand and use
+
 2.This model is simple to implement also the number of resources that are required for it is minimal.
+
 3.The requirements are simple and explicitly declared; they remain unchanged during the entire project development.
+
 4.The start and end points for each phase is fixed, which makes it easy to cover progress.
+
 5.The release date for the complete product, as well as its final cost, can be determined before development.
+
 6.It gives easy to control and clarity for the customer due to a strict reporting system.
 
 **Cons of WaterFall Model**
 
 1.In this model, the risk factor is higher, so this model is not suitable for more significant and complex projects.
+
 2.This model cannot accept the changes in requirements during development.
+
 3.It becomes tough to go back to the phase. For example, if the application has now shifted to the testing phase, and there is a change in coding, It becomes tough to go back and change it.
-4.Since the testing done at a later stage, it does not allow identifying the     challenges and risks in the earlier phase, so the risk reduction strategy is difficult  to prepare.
+
+4.Since the testing done at a later stage, it does not allow identifying the challenges and risks in the earlier phase, so the risk reduction strategy is difficult  to prepare.
 
 
 ### Iterative Model
@@ -123,18 +134,28 @@ All these phases are cascaded to each other in which progress is seen as flowing
 **Pros of Iterative Model**
 
 1.Testing and debugging during smaller iteration is easy.
+
 2.A Parallel development can be planned.
+
 3.Results are obtained early and periodically.
+
 4.Risks are identified and resolved during iteration.
-5.Issues, challenges and risks identified from each increment can be utilized/applied to the next increment
+
+5.Issues, challenges and risks identified from each increment can be utilized/applied to the next increment.
+
 
 **Cons of Iterative Model**
 
 1.It is not suitable for smaller projects.
+
 2.More Resources may be required.
+
 3.Design can be changed again and again because of imperfect requirements.
+
 4.Requirement changes can cause over budget.
+
 5.Project completion date not confirmed because of changing requirements.
+
 
 ### Spiral Model
 The Spiral model is a combination of iterative development process model and the waterfall model with a very high significance on risk analysis. It implements the potential for rapid development of new versions of the software. Using the spiral model, the software is developed in a series of incremental releases. During the early iterations, the additional release may be a paper model or prototype. During later iterations, more and more complete versions of the engineered system are produced.
@@ -142,9 +163,13 @@ The Spiral model is a combination of iterative development process model and the
 The Spiral Model Includes the following phases:-
 
 1.**Objective setting**: Each cycle in the spiral starts with the identification of purpose for that cycle, the various alternatives that are possible for achieving the targets, and the constraints that exists.
+
 2.**Risk Assessment and reduction**: The next phase in the cycle is to calculate these various alternatives based on the goals and constraints. The focus of evaluation in this stage is located on the risk perception for the project.
+
 3.**Development and validation**:The next phase is to develop strategies that resolve uncertainties and risks. This process may include activities such as benchmarking, simulation, and prototyping.
+
 4.**Planning**: Finally, the next step is planned. The project is reviewed, and a choice made whether to continue with a further period of the spiral. If it is determined to keep, plans are drawn up for the next step of the project.
+
 
 ![Spiral Model](images/spiralmodel.jpg)<!-- style = "width:450px;
  height:300px;
@@ -155,17 +180,25 @@ Based on the customer evaluation, the software development process enters the ne
 **Pros of Spiral Model**
 
 1.Changing requirements can be accommodated.
+
 2.Allows extensive use of prototypes.
+
 3.Requirements can be captured more accurately.
+
 4.Users see the system early
 
 **Cons of Spiral Model**
 
 1.Management is more complex.
+
 2.End of the project may not be Known early.
+
 3.Not suitable for small or low risk projects and could be expensive for small projects.
-4.Process is complex
+
+4.Process is complex.
+
 5.Spiral may go on indefinitely.
+
 6.Large number of intermediate stages requires excessive documentation.
 
 
@@ -186,32 +219,49 @@ So V-Model contains Verification phases on one side of the Validation phases on 
  The verification of V-model include the following phases:-
 
 1.**Business requirement analysis**: This is the first step where product requirements understood from the customer's side. This phase contains detailed communication to understand customer's expectations and exact requirements.
+
 2.**System Design**: In this stage system engineers analyze and interpret the business of the proposed system by studying the user requirements document.
+
 3.**Architectural Design**: Architectural features are understood and designed at this stage. More than one technical approach is usually proposed, and a final decision is made based on technical and financial feasibility. System design is further broken down into modules taking different functionality. It is also known as High-Level Design (HLD).
+
 4.**Module Design**: In this step, a detailed internal design is specified for all system modules, referred to as low-level design (LLD). The design must be compatible with other modules and other external systems in the system architecture. Unit testing is an essential part of any development process and helps to eliminate maximum faults and errors at a very early stage. These unit testing can be designed at this level based on internal module design.
+
 5.**Coding**: The actual coding of the system modules designed in the design phase is taken up in the Coding phase. The most appropriate programming language is decided based on the system and architectural requirements.
+
 
 The Verification of V-Model include the following steps:-
 
 1.**Unit Testing**: In the V-Model, Unit Test Plans (UTPs) are developed during the module design phase. These UTPs are executed to eliminate errors at code level or unit level. A unit is the smallest entity which can independently exist, e.g., a program module. Unit testing verifies that the smallest entity can function correctly when isolated from the rest of the codes/ units.
+
 2.**Integration Testing**: Integration Test Plans are developed during the Architectural Design Phase. These tests verify that groups created and tested independently can coexist and communicate among themselves.
+
 3.**System Testing**: System Tests Plans are developed during System Design Phase. Unlike Unit and Integration Test Plans, System Tests Plans are composed by the client?s business team. System Test ensures that expectations from an application developer are met.
+
 4.**Acceptance Testing**: Acceptance testing is related to the business requirement analysis part. It includes testing the software product in user atmosphere. Acceptance tests reveal the compatibility problems with the different systems, which is available within the user atmosphere. It conjointly discovers the non-functional problems like load and performance defects within the real user atmosphere.
 
 **Pros of the V-Model**
 
 1.It is a highly-disciplined model, and the steps are completed at once.
+
 2.Works well for small projects where the requirements are very well understood.
+
 3.Easy to understand and use.
+
 4.It is easy to manage due to the rigor of the model.
+
 
 **Cons of the V-Model**
 
 1.This model is not suitable for complex and object-oriented projects.
+
 2.This model is not appropriate for long and ongoing projects.
+
 3.Not suitable for projects where there is a high to moderate risk of changing requirements.
+
 4.Once the software is in the testing phase, it is difficult to go back and make modifications.
+
 5.No working software is produced late during the life cycle.
+
 
 ### Big-Bang Model
 The Big Bang model is an SDLC model where we do not follow any specific process. The development just starts with the required money and efforts as the input, and the output is the software developed which may or may not be as per customer requirement. This Big Bang Model does not follow a procedure and there is a very little planning required. Even the customer is not sure about what exactly he wants and the requirements are implemented on the fly without much analysis.
@@ -225,16 +275,24 @@ As we discussed above, this model is required when this project is small like an
 **Pros of Big-Bang  Model**
 
 1.There is no planning required.
+
 2.Simple Model.
+
 3.Few resources required.
+
 4.Easy to manage.
+
 5.Flexible for developers.
+
 
 **Cons of Big-Bang Model**
 
 1.There are high risk and uncertainty.
+
 2.Not acceptable for a large project.
+
 3.If requirements are not clear that can cause very expensive.
+
 
 ### Incremental Model
 
@@ -243,9 +301,13 @@ Incremental Model is a process of software development where requirements divide
 The  Incremental Model includes the following steps:- 
 
 1.**Requirement analysis**:In the first step of the incremental model, the product analysis expertise identifies the functional requirements and non-functional requirements. This stage plays an important role while developing software under the gradual method.
+
 2.**Design & Development**:In this phase of the SDLC's incremental model, the system functionality and design of the development methodology has ended with success. When the software develops new practicality, the incremental model uses the design and development phase.
+
 3.**Testing**:In the incremental model, the testing phase examines the performance of each existing function as well as additional functionality. In the testing phase, different methods are used to test the behavior of each task.
+
 4.**Implementation**:In the implementation phase, coding is done for developing software. The design of the software, which is made in the designing phase, is now implemented practically, and final coding is done. Upon completion of this process, the quality of the product working will be enhanced and upgrade to the final system product.
+
 
 ![Incremental Model](images/incrementalmodel.png)<!-- style = "width:450px;
  height:300px;
@@ -254,15 +316,21 @@ The  Incremental Model includes the following steps:-
 **Pros of Incremental Model**
 
 1.Errors are easy to detect.
+
 2.Easy to test and debug.
+
 3.Flexible.
+
 4.Easy to manage risk because it has been managed through iteration.
+
 5.The client is provided with significant functionality at an early stage.
 
 **Cons of Incremental Model**
 
 1.It needs good planning.
+
 2.The total cost is high.
+
 3.It needs well-defined module interfaces.
 
 
@@ -282,18 +350,30 @@ At the end of the iteration, a working product is displayed to the customer and 
 The Agile Modle includes the following steps :
 
 1.Requirements gathering
+
 2.Design the requirements
+
 3.Construction/ iteration
+
 4.Testing
+
 5.Deployment
+
 6.Feedback
 
+
 1.**Requirements gathering**: In this phase, you must define the requirements. You should explain business opportunities and plan the time and effort needed to build the project. Based on this information, you can evaluate technical and economic feasibility.
+
 2.**Design the requirements**: When you have identified the project, work with stakeholders to define requirements. You can use the user flow diagram or the high-level UML diagram to show the work of new features and show how it will apply to your existing system.
+
 3.**Construction/ iteration**: When the team defines the requirements, the work begins. Designers and developers start working on their project, which aims to deploy a working product. The product will undergo various stages of improvement, so it includes simple, minimal functionality.
+
 4.**Testing**: In this phase, the Quality Assurance team examines the product's performance and looks for the bug.
+
 5.**Deployment**: In this phase, the team issues a product for the user's work environment.
+
 6.**Feedback**: After releasing the product, the last step is feedback. In this, the team receives feedback about the product and works through the feedback.
+
 
 ![AgileModel](images/agilemodel.png)<!-- style = "width:450px;
  height:300px;
@@ -302,20 +382,32 @@ The Agile Modle includes the following steps :
 **Pros of Agile Model**
 
 1.Is a very realistic approach to software development.
+
 2.Promotes teamwork and cross training.
+
 3.Functionality can be developed rapidly and demonstrated.
+
 4.Resource requirements are minimum.
-5.Suitable for fixed or changing requirements
+
+5.Suitable for fixed or changing requirements.
+
 6.Delivers early partial working solutions.
+
 7.Good model for environments that change steadily.
+
 8.Minimal rules, documentation easily employed.
+
 
 **Cons of Agile Model**
 
 1.Not suitable for handling complex dependencies.
+
 2.More risk of sustainability, maintainability and extensibility.
+
 3.Depends heavily on customer interaction, so if customer is not clear, team can be driven in the wrong direction.
+
 4.There is a very high individual dependency, since there is minimum documentation generated.
+
 
 ### Prototype Model
 
@@ -340,6 +432,7 @@ The Prototype Model includes the following steps :-
  margin-left:250px;"-->
 
  Prototype Types
+
 There are different types of software prototypes used in the industry. 
 
 **Throwaway/Rapid Prototyping**
@@ -359,24 +452,34 @@ Extreme prototyping is used in the web development domain. It consists of three 
 
 **Pros of Prototype Model**
 
-1.Reduce the risk of incorrect user requirement
-2.Good where requirement are changing/uncommitted
-3.Regular visible process aids management
-4.Support early product marketing
+1.Reduce the risk of incorrect user requirement.
+
+2.Good where requirement are changing/uncommitted.
+
+3.Regular visible process aids management.
+
+4.Support early product marketing.
+
 5.Reduce Maintenance cost.
+
 6.Errors can be detected much earlier as the system is made side by side.
+
 
 **Cons of Prototype Model**
 
 1.An unstable/badly implemented prototype often becomes the final product.
-2.Require extensive customer collaboration
+
+2.Require extensive customer collaboration.
+
 3.Difficult to know how long the project will last.
+
 4.Easy to fall back into the code and fix without proper requirement analysis, design, customer evaluation, and feedback.
+
 5.Prototyping tools are expensive.
+
 6.Special tools & techniques are required to build a prototype.
+
 7.It is a time-consuming process.
-
-
 
 
 
@@ -387,10 +490,15 @@ The RAD (Rapid Application Development) model is based on iterative prototyping 
 The RAD model includes the following steps :-
 
 1.**Business Modelling**:  In this phase of development business model should be designed based on the information available from different business activities. Before start the development there should be a complete picture of business process functionality.
+
 2.**Data Modelling**: The data collected from business modeling is refined into a set of data objects (entities) that are needed to support the business. The attributes (character of each entity) are identified, and the relation between these data objects (entities) is defined.
+
 3.**Process Modelling**: The information object defined in the data modeling phase are transformed to achieve the data flow necessary to implement a business function. Processing descriptions are created for adding, modifying, deleting, or retrieving a data object.
+
 4.**Application Modeling**: In this phase application id developed and coding completed. With help of automation tools all data implemented and processed to work as real time.
+
 5.**Testing & Turnover**: Many of the programming components have already been tested since RAD emphasis reuse. This reduces the overall testing time. But the new part must be tested, and all interfaces must be fully exercised.
+
 
 ![RADModel](images/RADmodel.png)<!-- style = "width:450px;
  height:300px;
@@ -399,21 +507,34 @@ The RAD model includes the following steps :-
 **Pros of RAD Model**
 
 1.Fast application development and delivery.
+
 2.Less testing activity required.
+
 3.Visualization of progress.
+
 4.Less resources required.
+
 5.Review by the client from the very beginning of development so very less chance to miss the requirements.
+
 6.Very flexible if any changes required.
+
 7.Cost effective.
+
 8.Good for small projects.
+
 
 **Cons of RAD Model**
 
 1.High skilled resources required.
+
 2.On each development phase client’s feedback required.
+
 3.Automated code generation is very costly.
+
 4.Difficult to manage.
-5.Not a good process for long term and big projects
+
+5.Not a good process for long term and big projects.
+
 
 ## SoftWare Management 
 
@@ -432,8 +553,11 @@ Software project management is a way of planning and supervising software projec
 There are three software project management needs,
 
 1.Time
+
 2.Cost
+
 3.Quality
+
 
 Delivering a high-quality product is an essential part of the software organization while keeping costs within the client's budget and delivering the project on time. There are many factors, external and internal, which may affect these three factors. Any of three-factor can severely affect the other two.
 
@@ -445,22 +569,34 @@ The project manager is responsible for making decisions. The project manager is 
 **Role of Product Manager**
 
 1.Managing risks and issues.
+
 2.Create the project team and assigns tasks to several team members.
+
 3.Activity planning and sequencing.
+
 4.Monitoring and reporting progress.
+
 5.Modifies the project plan to deal with the situation.
+
 
 ### Activities
 
 Software Project Management consists of many activities, that includes planning of the project, deciding the scope of product, estimation of cost in different terms, scheduling of tasks, etc.
 
 1.Project Planning
+
 2.Scope Management
+
 3.Project Estimation
+
 4.Software size estimation
+
 5.Effort estimation
+
 6.Time estimation
+
 7.Cost estimation
+
 
 
 **Project planning**
@@ -474,10 +610,15 @@ It defines the scope of the project; It includes all activities, the process req
 These are the points necessary during project scope manegement
 
 1.Define the scope.
+
 2.Decide when to control and verify.
+
 3.Split the project into various smaller parts for ease of management.
+
 4.Scope verification.
+
 5.Monitor the scope by adding changes to the scope.
+
 
 **Project Estimation**
 
@@ -500,8 +641,11 @@ When the effort and size assessed, then the time needed to develop the software 
 This can be considered the most difficult. To estimate the cost of the project, one must consider it.
 
 1.Size and quality of the software.
+
 2.Hardware.
+
 3.Expenses involved in travel, communication, training, and support.
+
 
 ## Project Planning
 
@@ -519,15 +663,20 @@ Project planning is very important for the success of the project. Making the ri
 
 Software manager is responsible for planning and scheduling project development. They manage the work to ensure that it is completed to the required standard. They monitor the progress to check that the event is on time and within budget. The project planning must incorporate the major issues like size & cost estimation scheduling, project monitoring, personnel selection evaluation & risk management. To plan a successful software project, we must understand:
 
-1.Scope of work to be completed
-2.Risk analysis
-3.The resources mandatory
-4.The project to be accomplished
-5.Record of being followed
+1.Scope of work to be completed.
+
+2.Risk analysis.
+
+3.The resources mandatory.
+
+4.The project to be accomplished.
+
+5.Record of being followed.
 
 **Steps for project planning**
 
 Planning is the basic step of project planning that every project manager needs to know. This gives an idea of what is happening at different phases while developing software, but they do not provide detail information.
+
 At the beginning of any project, the project manager does not have any plan. To develop a good plan for the project, the project manager needs to spend some time with the team members and explain what he wants to achieve together and work on the processes required to achieve the goal. The project manager develops an action plan for how it will be carried out.
 
 **How to manage your plan**
@@ -540,16 +689,24 @@ Sometimes it happens that some plans are not working accordingly, then the proje
 For any new software project, it is necessary to know how much it will cost to develop and how much development time will it take. These estimates are needed before development is initiated, but how is this done? Several estimation procedures have been developed and are having the following attributes in common.
 
 1.Project scope must be established in advanced.
+
 2.Software metrics are used as a support from which evaluation is made.
+
 3.The project is broken into small PCs which are estimated individually.To achieve true cost & schedule estimate, several option arise.
+
 4.Delay estimation
+
 5.Used symbol decomposition techniques to generate project cost and schedule estimates.
+
 6.Acquire one or more automated estimation tools.
+
 
 **Uses of cost estimation**
 
 1.During the planning stage, one can choose how many engineers are required for the project and to develop the schedule.
+
 2.In monitoring the project's progress, one needs to access whether the project is progressing according to the  procedure and takes corrective action, if necessary.
+
 
 ### COCOMO Model
 
@@ -566,8 +723,11 @@ Various models of COCOMO have been introduced to predict cost estimates at diffe
 Software projects are classified into three categories:
 
 * Organic
+
 * Semi-detached
+
 * Embedded
+
 
 **Organic**: In the organic type, the project deals with developing a well-understood application program; the team size is generally small. This category is for the small to medium size software product. In this type, team members have good experience and knowledge. 
 
@@ -611,28 +771,44 @@ In general, cost drivers can be grouped into four categories:
 **Product attributes**
 
 * Required software reliability extent (RELY)
+
 * Size of the application database (DATA)
+
 * The complexity of the product (CPLX)
+
+
 **Hardware attributes**
 
 * Run-time performance constraints (TIME)
+
 * Memory constraints (STOR)
+
 * The volatility of the virtual machine environment (VIRT)
+
 * Required turnaround time (TIME)
+
 
  **Personnel attributes**
 
 * Analyst capability (ACAP)
+
 * Programmer capability (PCAP)
+
 * Applications experience (AEXP)
+
 * Virtual machine experience (VEXP)
+
 * Programming language experience (LEXP)
+
 
 **Project attributes**
 
 * Use of software tools (TOOL)
+
 * Modern programming practices (MODP)
+
 * Required development schedule (SCED)
+
 
 ![intermediatecocomo](images/intermediatecocomo.PNG)<!-- style = "width:550px;
  height:400px;
@@ -729,20 +905,31 @@ Risk Management is the system of identifying addressing and eliminating these pr
 There are three main classifications of risks which can affect a software project:
 
 1.Project risks
+
 2.Technical risks
+
 3.Business risks
 
+
 1.**Project risks**: Project risks concern differ forms of budgetary, schedule, personnel, resource, and customer-related problems. A vital project risk is schedule slippage. Since the software is intangible, it is very tough to monitor and control a software project. It is very tough to control something which cannot be identified. For any manufacturing program, such as the manufacturing of cars, the plan executive can recognize the product taking shape.
+
 2.**Technical risks**: Technical risks concern potential method, implementation, interfacing, testing, and maintenance issue. It also consists of an ambiguous specification, incomplete specification, changing specification, technical uncertainty, and technical obsolescence. Most technical risks appear due to the development team's insufficient knowledge about the project.
+
 3.**Business risks**: This type of risks contain risks of building an excellent product that no one need, losing budgetary or personnel commitments, etc.
+
 
 **Principle of risk management**
 
 1.**Global Perspective**: In this, we review the bigger system description, design, and implementation. We look at the chance and the impact the risk is going to have.
+
 2.**Take a forward-looking view**: Consider the threat which may appear in the future and create future plans for directing the next events.
+
 3.**Open Communication**: This is to allow the free flow of communications between the client and the team members so that they have certainty about the risks.
+
 4.**Integrated management**: In this method risk management is made an integral part of project management.
+
 5.**Continuous process**: In this phase, the risks are tracked continuously throughout the risk management paradigm.
+
  
 ### Risk Management activities
 
@@ -752,7 +939,9 @@ Risk management consists of three main activities,
 The objective of risk assessment is to division the risks in the condition of their loss, causing potential. For risk assessment, first, every risk should be rated in two methods
 
 1.The possibility of a risk coming true (denoted as r).
+
 2.The consequence of the issues relates to that risk (denoted as s).
+
 
 Based on these two methods, the priority of each risk can be estimated:
 
@@ -766,10 +955,15 @@ A project can be of use by a large variety of risk. To identify the significant 
 There are different types of risks which can affect a software project:
 
 1.**Technology risks**: Risks that assume from the software or hardware technologies that are used to develop the system.
+
 2.**People risks**: Risks that are connected with the person in the development team.
+
 3.**Organizational risks**: Risks that assume from the organizational environment where the software is being developed.
+
 4.**Tools risks**: Risks that assume from the software tools and other support software used to create the system.
+
 5.**Requirement risks**: Risks that assume from the changes to the customer requirement and the process of managing the requirements change.
+
 6.**Estimation risks**: Risks that assume from the management estimates of the resources required to build the system
 
 2. **Risk Analysis**: During the risk analysis process, you have to consider every identified risk and make a perception of the probability and seriousness of that risk.
@@ -778,7 +972,9 @@ There is no simple way to do this. You have to rely on your perception and exper
 It is not possible to make an exact, the numerical estimate of the probability and seriousness of each risk. Instead, you should authorize the risk to one of several bands:
 
 1.The probability of the risk might be determined as very low (0-10%), low (10-25%), moderate (25-50%), high (50-75%) or very high (+75%).
+
 2.The effect of the risk might be determined as catastrophic (threaten the survival of the plan), serious (would cause significant delays), tolerable (delays are within allowed contingency), or insignificant.
+
 
 **Risk Control** 
 
@@ -813,12 +1009,19 @@ Again, there is no easy process that can be followed for contingency planning. I
 Project-task scheduling is a significant project planning activity. It comprises deciding which functions would be taken up when. To schedule the project plan, a software project manager wants to do the following:
 
 1.Identify all the functions required to complete the project.
+
 2.Break down large functions into small activities.
+
 3.Determine the dependency among various activities.
+
 4.Establish the most likely size for the time duration required to complete the activities.
+
 5.Allocate resources to activities.
+
 6.Plan the beginning and ending dates for different activities.
+
 7.Determine the critical path. A critical way is the group of activities that decide the duration of the project.
+
 
 The first method in scheduling a software plan involves identifying all the functions required to complete the project. A good judgment of the intricacies of the project and the development process helps the supervisor to identify the critical role of the project effectively. Next, the large functions are broken down into a valid set of small activities which would be assigned to various engineers. The work breakdown structure formalism supports the manager to breakdown the function systematically after the project manager has broken down the purpose and constructs the work breakdown structure; he has to find the dependency among the activities. Dependency among the various activities determines the order in which the various events would be carried out. If an activity A necessary the results of another activity B, then activity A must be scheduled after activity B. In general, the function dependencies describe a partial ordering among functions, i.e., each service may precede a subset of other functions, but some functions might not have any precedence ordering describe between them (called concurrent function). The dependency among the activities is defined in the pattern of an activity network.
 
