@@ -672,6 +672,7 @@ The Lawrence Putnam model describes the time and effort requires finishing a sof
  margin-left:160px;"-->
  
 The various terms of this expression are as follows:
+
 K is the total effort expended (in PM) in product development, and L is the product estimate in KLOC.
 
 td correlate to the time of system and integration testing. Therefore, td can be relatively considered as the time required for developing the product.
@@ -872,7 +873,7 @@ Following are the characteristics of a good SRS document:
 **Verifiable**: All requirements of the system, as documented in the SRS document, should be correct. This means that it should be possible to decide whether or not requirements have been met in an implementation.
 
 ### Requirement Analysis
-Requirement analysis is significant and essential activity after elicitation. We analyze, refine, and scrutinize the gathered requirements to make consistent and unambiguous requirements. This activity reviews all requirements and may provide a graphical view of the entire system. After the completion of the analysis, it is expected that the understandability of the project may improve significantly. Here, we may also use the interaction with the customer to clarify points of confusion and to understand which requirements are more important than others.
+Requirement analysis is significant and essential activity after elicitation. We analyze, refine, and examine the gathered requirements to make consistent and undeniable requirements. This activity reviews all requirements and may provide a graphical view of the entire system. After the completion of the analysis, it is expected that the understandability of the project may improve significantly. Here, we may also use the interaction with the customer to clarify points of confusion and to understand which requirements are more important than others.
 
 The Requirement Analysis include the following steps :
 
