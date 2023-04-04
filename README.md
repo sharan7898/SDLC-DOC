@@ -28,9 +28,9 @@ Software Development Life Cycle  is  used by the software industry to design, de
 
   7.**Maintenance** : After the software application is deployed, it requires ongoing maintenance, updates, and support to ensure that it continues to meet the changing needs of the users.
 
-    ![Sdlclifecycle](images/Sdlcimage1.png)<!-- style = "width:500px;
- height:350px;
- margin-left:170px;" -->
+
+![Sdlclifecycle](images/Sdlcimage1.png)
+
 
 ## SDLC Models
 
@@ -81,10 +81,7 @@ The sequential phases in Waterfall model are −
 
 6.**Maintenance** − There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment
 
-![WaterFallModel](images/waterfall3.jpg)<!-- style = "width:450px;
- height:300px;
- margin-left:250px;"
-  -->
+![WaterFallModel](images/waterfall3.jpg)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
 
 All these phases are cascaded to each other in which progress is seen as flowing steadily downwards through the phases. The next phase is started only after the defined set of goals are achieved for previous phase and it is signed off, so the name "Waterfall Model".
 
