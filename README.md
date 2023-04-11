@@ -38,35 +38,37 @@ Software Development Life Cycle  is  used by the software industry to design, de
 
  Here,are the some important models, 
 
- 1.**WaterFall Model**
+ 1.[**WaterFall Model**](#waterfall-model)
 
- 2.**Iterative Model**
+ 2.[**Iterative Model**](#iterative-model)
 
- 3.**Spiral Model**
+ 3.[**Spiral Model**](#spiral-model)
 
- 4.**V-Model**
+ 4.[**V-Model**](#v-model)
 
- 5.**Big-Bang Model**
+ 5.[**Big-Bang Model**](#big-bang-model)
 
- 6.**Incremental model**
+ 6.[**Incremental model**](#incremental-model)
 
- 7.**Agile Model**
+ 7.[**Agile Model**](#agile-model)
 
- 8.**Prototype Model**
+ 8.[**Prototype Model**](#prototype-model)
 
- 9.**RAD Model**
+ 9.[**RAD Model**](#rad-model)
 
 
 
-### WaterFall Model
-
-The Waterfall Model was the first Process Model to be introduced. It is also referred to as a linear-sequential model cycle.
+## **WaterFall Model**
+<br>
+The Waterfall Model was the first Process Model to be introduced. It is also referred to as a  linear-sequential model cycle.
 In a waterfall model, each phase must be completed before the next phase can begin and there is no overlapping in the phases.
 The waterfall Model illustrates the software development process in a linear sequential flow. This means that any phase in the development process begins only if the previous phase is complete.
 In this waterfall model, the phases do not overlap.
 In The Waterfall approach, the whole process of software development is divided into separate phases.
 In this Waterfall model, typically, the outcome of one phase acts as the input for the next phase sequentially.
 
+#### **Phases**
+<br>
 The sequential phases in Waterfall model are −
 
 1.**Requirement Gathering and analysis** − All possible requirements of the system to be developed are captured in this phase and documented in a requirement specification document.
@@ -85,7 +87,9 @@ The sequential phases in Waterfall model are −
 
 All these phases are cascaded to each other in which progress is seen as flowing steadily downwards through the phases. The next phase is started only after the defined set of goals are achieved for previous phase and it is signed off, so the name "Waterfall Model".
 
-**Pros of WaterFall Model**
+
+#### **Pros of WaterFall Model**
+<br>
 
 1.Simple and easy to understand and use
 
@@ -99,7 +103,8 @@ All these phases are cascaded to each other in which progress is seen as flowing
 
 6.It gives easy to control and clarity for the customer due to a strict reporting system.
 
-**Cons of WaterFall Model**
+#### **Cons of WaterFall Model**
+<br>
 
 1.In this model, the risk factor is higher, so this model is not suitable for more significant and complex projects.
 
@@ -110,12 +115,15 @@ All these phases are cascaded to each other in which progress is seen as flowing
 4.Since the testing done at a later stage, it does not allow identifying the challenges and risks in the earlier phase, so the risk reduction strategy is difficult  to prepare.
 
 
-### Iterative Model
+## Iterative Model
+<br>
 
 In this Model, you can start with some of the software specifications and develop the first version of the software. After the first version if there is a need to change the software, then a new version of the software is created with a new iteration. Every release of the Iterative Model finishes in an exact and fixed period that is called iteration. The Iterative Model allows the accessing earlier phases, in which the variations made respectively. The final output of the project renewed at the end of the SDLC process.
 
+#### **Phases**
+<br>
 
-  The Iterative model includes the following phases –
+The Iterative model includes the following phases –
 
 1.**Requirement gathering & analysis** : In this phase, requirements are gathered from customers and check by an analyst whether requirements will fulfil or not. Analyst checks that need will achieve within budget or not. After all of this, the software team skips to the next phase.
 
@@ -134,7 +142,8 @@ In this Model, you can start with some of the software specifications and develo
 ![iterative Model](images/iterativemodel.png)<!-- style = "width:450px; height:300px; margin-left:250px;"-->
 
 
-**Pros of Iterative Model**
+#### **Pros of Iterative Model**
+<br>
 
 1.Testing and debugging during smaller iteration is easy.
 
@@ -147,7 +156,8 @@ In this Model, you can start with some of the software specifications and develo
 5.Issues, challenges and risks identified from each increment can be utilized/applied to the next increment.
 
 
-**Cons of Iterative Model**
+#### **Cons of Iterative Model**
+<br>
 
 1.It is not suitable for smaller projects.
 
@@ -160,8 +170,13 @@ In this Model, you can start with some of the software specifications and develo
 5.Project completion date not confirmed because of changing requirements.
 
 
-### Spiral Model
+## Spiral Model
+<br>
+
 The Spiral model is a combination of iterative development process model and the waterfall model with a very high significance on risk analysis. It implements the potential for rapid development of new versions of the software. Using the spiral model, the software is developed in a series of incremental releases. During the early iterations, the additional release may be a paper model or prototype. During later iterations, more and more complete versions of the engineered system are produced.
+
+#### **Phases**
+<br>
 
 The Spiral Model Includes the following phases:-
 
@@ -178,7 +193,8 @@ The Spiral Model Includes the following phases:-
 
 Based on the customer evaluation, the software development process enters the next iteration and subsequently follows the linear approach to implement the feedback suggested by the customer. The process of iterations along the spiral continues throughout the life of the software.
 
-**Pros of Spiral Model**
+#### **Pros of Spiral Model**
+<br>
 
 1.Changing requirements can be accommodated.
 
@@ -188,7 +204,8 @@ Based on the customer evaluation, the software development process enters the ne
 
 4.Users see the system early
 
-**Cons of Spiral Model**
+#### **Cons of Spiral Model**
+<br>
 
 1.Management is more complex.
 
@@ -203,8 +220,9 @@ Based on the customer evaluation, the software development process enters the ne
 6.Large number of intermediate stages requires excessive documentation.
 
 
+## V-Model
+<br>
 
-### V-Model
 V-model also referred to as the Verification and Validation Model. In this, each phase of SDLC must complete before the next phase starts. It follows a sequential design process same as the waterfall model. Testing of the device is planned in parallel with a corresponding stage of development.
 
 **Verification**: It involves a static analysis method (review) done without executing code. It is the process of evaluation of the product development process to find whether specified requirements meet.
@@ -215,7 +233,10 @@ So V-Model contains Verification phases on one side of the Validation phases on 
 
 ![v-model](images/V-model.jpg)<!-- style = "width:450px;height:300px; margin-left:250px;"-->
 
- The verification of V-model include the following phases:-
+#### **Verification Phases**
+<br>
+
+The verification of V-model include the following phases:-
 
 1.**Business requirement analysis**: This is the first step where product requirements understood from the customer's side. This phase contains detailed communication to understand customer's expectations and exact requirements.
 
@@ -227,8 +248,10 @@ So V-Model contains Verification phases on one side of the Validation phases on 
 
 5.**Coding**: The actual coding of the system modules designed in the design phase is taken up in the Coding phase. The most appropriate programming language is decided based on the system and architectural requirements.
 
+#### **Validation Phases**
+<br>
 
-The Verification of V-Model include the following steps:-
+The Validation of V-Model include the following steps:-
 
 1.**Unit Testing**: In the V-Model, Unit Test Plans (UTPs) are developed during the module design phase. These UTPs are executed to eliminate errors at code level or unit level. A unit is the smallest entity which can independently exist, e.g., a program module. Unit testing verifies that the smallest entity can function correctly when isolated from the rest of the codes/ units.
 
@@ -238,7 +261,8 @@ The Verification of V-Model include the following steps:-
 
 4.**Acceptance Testing**: Acceptance testing is related to the business requirement analysis part. It includes testing the software product in user atmosphere. Acceptance tests reveal the compatibility problems with the different systems, which is available within the user atmosphere. It conjointly discovers the non-functional problems like load and performance defects within the real user atmosphere.
 
-**Pros of the V-Model**
+#### **Pros of the V-Model**
+<br>
 
 1.It is a highly-disciplined model, and the steps are completed at once.
 
@@ -249,7 +273,8 @@ The Verification of V-Model include the following steps:-
 4.It is easy to manage due to the rigor of the model.
 
 
-**Cons of the V-Model**
+#### **Cons of the V-Model**
+<br>
 
 1.This model is not suitable for complex and object-oriented projects.
 
@@ -262,7 +287,8 @@ The Verification of V-Model include the following steps:-
 5.No working software is produced late during the life cycle.
 
 
-### Big-Bang Model
+## Big-Bang Model
+<br>
 The Big Bang model is an SDLC model where we do not follow any specific process. The development just starts with the required money and efforts as the input, and the output is the software developed which may or may not be as per customer requirement. This Big Bang Model does not follow a procedure and there is a very little planning required. Even the customer is not sure about what exactly he wants and the requirements are implemented on the fly without much analysis.
 
 This model is ideal for small projects like academic projects or practical projects. One or two developers can work together on this model.
@@ -271,7 +297,8 @@ This model is ideal for small projects like academic projects or practical proje
 
 As we discussed above, this model is required when this project is small like an academic project or a practical project. This method is also used when the size of the developer team is small and when requirements are not defined, and the release date is not confirmed or given by the customer.
 
-**Pros of Big-Bang  Model**
+#### **Pros of Big-Bang  Model**
+<br>
 
 1.There is no planning required.
 
@@ -284,7 +311,8 @@ As we discussed above, this model is required when this project is small like an
 5.Flexible for developers.
 
 
-**Cons of Big-Bang Model**
+#### **Cons of Big-Bang Model**
+<br>
 
 1.There are high risk and uncertainty.
 
@@ -293,10 +321,13 @@ As we discussed above, this model is required when this project is small like an
 3.If requirements are not clear that can cause very expensive.
 
 
-### Incremental Model
+## Incremental Model
+<br>
 
 Incremental Model is a process of software development where requirements divided into multiple standalone modules of the software development cycle. In this model, each module goes through the requirements, design, implementation and testing phases. Every subsequent release of the module adds function to the previous release. The process continues until the complete system achieved.
 
+#### **Phases**
+<br>
 The  Incremental Model includes the following steps:- 
 
 1.**Requirement analysis**:In the first step of the incremental model, the product analysis expertise identifies the functional requirements and non-functional requirements. This stage plays an important role while developing software under the gradual method.
@@ -310,7 +341,8 @@ The  Incremental Model includes the following steps:-
 
 ![Incremental Model](images/incrementalmodel.png)<!-- style = "width:450px; height:300px; margin-left:250px;"-->
 
-**Pros of Incremental Model**
+#### **Pros of Incremental Model**
+<br>
 
 1.Errors are easy to detect.
 
@@ -322,7 +354,8 @@ The  Incremental Model includes the following steps:-
 
 5.The client is provided with significant functionality at an early stage.
 
-**Cons of Incremental Model**
+#### **Cons of Incremental Model**
+<br>
 
 1.It needs good planning.
 
@@ -331,7 +364,8 @@ The  Incremental Model includes the following steps:-
 3.It needs well-defined module interfaces.
 
 
-### Agile Model
+## Agile Model
+<br>
 
 Agile SDLC model is a combination of iterative and incremental process models with focus on process adaptability and customer satisfaction by rapid delivery of working software product. Agile Methods break the product into small incremental builds. These builds are provided in iterations. Each iteration typically lasts from about one to three weeks. Every iteration involves cross functional teams working simultaneously on various areas like −
 
@@ -344,20 +378,9 @@ Agile SDLC model is a combination of iterative and incremental process models wi
 
 At the end of the iteration, a working product is displayed to the customer and important stakeholders.
 
+#### **Phases**
+<br>
 The Agile Modle includes the following steps :
-
-1.Requirements gathering
-
-2.Design the requirements
-
-3.Construction/ iteration
-
-4.Testing
-
-5.Deployment
-
-6.Feedback
-
 
 1.**Requirements gathering**: In this phase, you must define the requirements. You should explain business opportunities and plan the time and effort needed to build the project. Based on this information, you can evaluate technical and economic feasibility.
 
@@ -374,7 +397,8 @@ The Agile Modle includes the following steps :
 
 ![AgileModel](images/agilemodel.png)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
 
-**Pros of Agile Model**
+#### **Pros of Agile Model**
+<br>
 
 1.Is a very realistic approach to software development.
 
@@ -393,7 +417,8 @@ The Agile Modle includes the following steps :
 8.Minimal rules, documentation easily employed.
 
 
-**Cons of Agile Model**
+#### **Cons of Agile Model**
+<br>
 
 1.Not suitable for handling complex dependencies.
 
@@ -404,9 +429,13 @@ The Agile Modle includes the following steps :
 4.There is a very high individual dependency, since there is minimum documentation generated.
 
 
-### Prototype Model
+## Prototype Model
+<br>
 
 Making a functional replica of a system or product that needs to be engineered is known as prototyping. Prototyping Model involves building, testing, and refining prototypes until one is good enough. It provides a scaled-down replica of the final product and is employed for gathering customer feedback. The typical outcome of a prototype is that it is a relatively unpolished rendition of the real system, possibly displaying constrained functional capabilities, poor dependability, and ineffective performance in comparison to the real software. Additionally, it builds a foundation upon which to build the finished software or system. When the project’s requirements are not fully understood, it functions optimally.
+
+#### **Phases**
+<br>
 
 The Prototype Model includes the following steps :-
 
@@ -424,7 +453,8 @@ The Prototype Model includes the following steps :-
 
 ![PrototypeModel](images/Prototypemodel.png)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
 
- Prototype Types
+#### **Prototype Types**
+<br>
 
 There are different types of software prototypes used in the industry. 
 
@@ -443,7 +473,8 @@ Incremental prototyping refers to building multiple functional prototypes of the
 **Extreme Prototyping**
 Extreme prototyping is used in the web development domain. It consists of three sequential phases. First, a basic prototype with all the existing pages is presented in the HTML format. Then the data processing is simulated using a prototype services layer. Finally, the services are implemented and integrated to the final prototype. This process is called Extreme Prototyping used to draw attention to the second phase of the process, where a fully functional UI is developed with very little regard to the actual services.
 
-**Pros of Prototype Model**
+#### **Pros of Prototype Model**
+<br>
 
 1.Reduce the risk of incorrect user requirement.
 
@@ -458,7 +489,8 @@ Extreme prototyping is used in the web development domain. It consists of three 
 6.Errors can be detected much earlier as the system is made side by side.
 
 
-**Cons of Prototype Model**
+#### **Cons of Prototype Model**
+<br>
 
 1.An unstable/badly implemented prototype often becomes the final product.
 
@@ -475,10 +507,13 @@ Extreme prototyping is used in the web development domain. It consists of three 
 7.It is a time-consuming process.
 
 
-
-### RAD Model
+## RAD Model
+<br>
 
 The RAD (Rapid Application Development) model is based on iterative prototyping and iterative development without involving any specific planning. The process of developing the software itself requires the planning necessary for product development. Rapid application development aims to gather customer needs through workshops or focus teams, initial testing of iterations, using iterative models, reusing existing designs, continuous integration, and faster delivery. If the requirements are well understood and described, and the project scope is a constraint, the RAD process enables a development team to create a fully functional system within a concise time period.
+
+#### **Phases**
+<br>
 
 The RAD model includes the following steps :-
 
@@ -495,7 +530,8 @@ The RAD model includes the following steps :-
 
 ![RADModel](images/RADmodel.png)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
 
-**Pros of RAD Model**
+#### **Pros of RAD Model**
+<br>
 
 1.Fast application development and delivery.
 
@@ -514,7 +550,8 @@ The RAD model includes the following steps :-
 8.Good for small projects.
 
 
-**Cons of RAD Model**
+#### **Cons of RAD Model**
+<br>
 
 1.High skilled resources required.
 
@@ -529,9 +566,9 @@ The RAD model includes the following steps :-
 
 ## SoftWare Management 
 
-### Project Management 
+### **Project Management** 
 
- **What is Software Project**
+**What is Software Project**
 
 Project is a well-defined task, which is a collection of several operations done in order to achieve a goal. Projects can vary from simple to difficult and can be run by one person or hundreds. The project manager or team executive describes and approves the projects.A Software Project is the complete procedure of software development from requirement gathering to testing and maintenance, carried out according to the execution methodologies, in a specified period of time to achieve intended software product.
 
@@ -552,7 +589,7 @@ There are three software project management needs,
 
 Delivering a high-quality product is an essential part of the software organization while keeping costs within the client's budget and delivering the project on time. There are many factors, external and internal, which may affect these three factors. Any of three-factor can severely affect the other two.
 
-**Product Manager**
+#### **Product Manager**
 
 The project manager is the person who has overall responsibility for planning, designing, implementing, monitoring, controlling, and closure of a project. Project managers play a key role in the achievement of projects.
 The project manager is responsible for making decisions. The project manager is used to managing risk and reduce uncertainty. Every decision made by the project manager must directly beneficial for their project.
@@ -828,10 +865,11 @@ The Lawrence Putnam model describes the time and effort requires finishing a sof
 
 ![Putnam model](images/putnammodel.jpg)<!-- style = "width:550px;height:400px;margin-left:180px;"-->
 
- Putnam noticed that software staffing profiles followed the well known Rayleigh distribution. Putnam used his observation about productivity levels to derive the software equation:
+Putnam noticed that software staffing profiles followed the well known Rayleigh distribution. Putnam used his observation about productivity levels to derive the software equation:
 
- ![Equation](images/putnamformula.png)<!-- style = "width:550px; height:100px;margin-left:160px;"-->
- 
+![Equation](images/putnamformula.png)<!-- style = "width:550px;height:100px;margin-left:160px;"-->
+
+
 The various terms of this expression are as follows:
 
 K is the total effort expended (in PM) in product development, and L is the product estimate in KLOC.
@@ -854,7 +892,7 @@ Effect of a Schedule change on Cost
 Putnam derived the following expression:
 
 ![Equation](images/putnamformula.png)<!-- style = "width:550px;height:100px;margin-left:160px;"-->
-                   
+                  
 
 Where, K is the total effort expended (in PM) in the product development
 
@@ -870,6 +908,7 @@ Now by using the above expression, it is obtained that,
 For the same product size, C =L3 / Ck3 is a constant.
 
 ![equation 3](images/equation3.png)
+
 
 (As project development effort is equally proportional to project development cost) 
 
@@ -901,7 +940,7 @@ There are three main classifications of risks which can affect a software projec
 3.**Business risks**: This type of risks contain risks of building an excellent product that no one need, losing budgetary or personnel commitments, etc.
 
 
-**Principle of risk management**
+### **Principle of risk management**
 
 1.**Global Perspective**: In this, we review the bigger system description, design, and implementation. We look at the chance and the impact the risk is going to have.
 
@@ -919,6 +958,7 @@ There are three main classifications of risks which can affect a software projec
 Risk management consists of three main activities,
 
 **Risk Assessment**
+
 The objective of risk assessment is to division the risks in the condition of their loss, causing potential. For risk assessment, first, every risk should be rated in two methods
 
 1.The possibility of a risk coming true (denoted as r).
@@ -1058,7 +1098,7 @@ Following are the characteristics of a good SRS document:
 
 **Verifiable**: All requirements of the system, as documented in the SRS document, should be correct. This means that it should be possible to decide whether or not requirements have been met in an implementation.
 
-### Requirement Analysis
+### **Requirement Analysis**
 Requirement analysis is significant and essential activity after elicitation. We analyze, refine, and examine the gathered requirements to make consistent and undeniable requirements. This activity reviews all requirements and may provide a graphical view of the entire system. After the completion of the analysis, it is expected that the understandability of the project may improve significantly. Here, we may also use the interaction with the customer to clarify points of confusion and to understand which requirements are more important than others.
 
 The Requirement Analysis include the following steps :
@@ -1074,6 +1114,534 @@ The prototype should be built quickly and at a relatively low cost. Hence it wil
 **Model the requirements**: This process usually consists of various graphical representations of the functions, data entities, external entities, and the relationships between them. The graphical view may help to find incorrect, inconsistent, missing, and superfluous requirements. Such models include the Data Flow diagram, Entity-Relationship diagram, Data Dictionaries, State-transition diagrams, etc.
 
 **Finalise the requirements**: After modeling the requirements, we will have a better understanding of the system behavior. The inconsistencies and ambiguities have been identified and corrected. The flow of data amongst various modules has been analyzed. Elicitation and analyze activities have provided better insight into the system. Now we finalize the analyzed requirements, and the next step is to document these requirements in a prescribed format.
+
+
+## **Software Design**
+
+#### **Software Design**
+
+Software design is a mechanism to transform user requirements into some suitable form, which helps the programmer in software coding and implementation. It deals with representing the client's requirement, as described in SRS (Software Requirement Specification) document, into a form, i.e., easily implementable using programming language. The software design phase is the first step in SDLC, which moves the concentration from the problem domain to the solution domain. In software design, we consider the system to be a set of components or modules with clearly defined behaviors & boundaries.
+
+Objectives of Software Design
+
+1.**Correctness**:Software design should be correct as per requirement.
+
+2.**Completeness**:The design should have all components like data structures, modules, and external interfaces, etc.
+
+3.**Efficiency**:Resources should be used efficiently by the program.
+
+4.**Flexibility**:Able to modify on changing needs.
+
+5.**Consistency**:There should not be any inconsistency in the design.
+
+6.**Maintainability**: The design should be so simple so that it can be easily maintainable by other designers.
+
+### **Software Design Principles**
+
+Software design principles are concerned with providing means to handle the complexity of the design process effectively. Effectively managing the complexity will not only reduce the effort needed for design but can also reduce the scope of introducing errors during design.
+
+The principles of Software Design are,
+
+##### **Problem Partitioning**
+
+For small problem, we can handle the entire problem at once but for the significant problem, divide the problem into smaller pieces so that each piece can be captured separately. The goal is to divide the problem into manageable pieces.
+
+Pros of Problem Partitioning
+
+1.Software is easy to understand
+
+2.Software becomes simple
+
+3.Software is easy to test
+
+4.Software is easy to modify
+
+5.Software is easy to maintain
+
+6.Software is easy to expand
+
+These pieces cannot be entirely independent of each other as they together form the system. They have to cooperate and communicate to solve the problem. This communication adds complexity.
+
+##### **Abstraction**
+An abstraction is a tool that enables a designer to consider a component at an abstract level without bothering about the internal details of the implementation. Abstraction can be used for existing element as well as the component being designed.
+
+Here, there are two common abstraction mechanisms
+
+1.Functional Abstraction
+
+2.Data Abstraction
+
+**Functional Abstraction**
+
+1.A module is specified by the method it performs.
+
+2.The details of the algorithm to accomplish the functions are not visible to the user of the function.
+Functional abstraction forms the basis for Function oriented design approaches.
+
+**Data Abstraction**
+
+Details of the data elements are not visible to the users of data. Data Abstraction forms the basis for Object Oriented design approaches.
+
+##### **Modularity**
+
+Modularity specifies to the division of software into separate modules which are differently named and addressed and are integrated later on in to obtain the completely functional software. It is the only property that allows a program to be intellectually manageable. Single large programs are difficult to understand and read due to a large number of reference variables, control paths, global variables, etc.
+
+The desirable properties of a modular system are:
+
+1.Each module is a well-defined system that can be used with other applications.
+
+2.Each module has single specified objectives.
+
+3.Modules can be separately compiled and saved in the library.
+
+4.Modules should be easier to use than to build.
+
+5.Modules are simpler from outside than inside.
+
+**Pros of Modularity**
+
+1.It allows large programs to be written by several or different people.
+
+2.It encourages the creation of commonly used routines to be placed in the library and used by other programs.
+
+3.It simplifies the overlay procedure of loading a large program into main storage.
+
+4.It provides more checkpoints to measure progress.
+
+5.It provides a framework for complete testing, more accessible to test.
+
+6.It produced the well designed and more readable program.
+
+**Cons of Modularity**
+
+1.Execution time maybe, but not certainly, longer.
+
+2.Storage size perhaps, but is not certainly, increased.
+
+3.Compilation and loading time may be longer.
+
+4.Inter-module communication problems may be increased.
+
+5.More linkage required, run-time may be longer, more source lines must be written, and more documentation has to be done.
+
+##### **Modular Design**
+Modular design reduces the design complexity and results in easier and faster implementation by allowing parallel development of various parts of a system. We discuss a different section of modular design in detail in this section:
+
+1.**Functional Independence**: Functional independence is achieved by developing functions that perform only one kind of task and do not excessively interact with other modules. Independence is important because it makes implementation more accessible and faster. The independent modules are easier to maintain, test, and reduce error propagation and can be reused in other programs as well. Thus, functional independence is a good design feature which ensures software quality.
+
+It is measured using two criteria:
+
+* Cohesion: It measures the relative function strength of a module.
+
+* Coupling: It measures the relative interdependence among modules.
+
+2.**Information hiding**: The fundamental of Information hiding suggests that modules can be characterized by the design decisions that protect from the others, i.e., In other words, modules should be specified that data include within a module is inaccessible to other modules that do not need for such information.The use of information hiding as design criteria for modular system provides the most significant benefits when modifications are required during testing's and later during software maintenance. This is because as most data and procedures are hidden from other parts of the software, inadvertent errors introduced during modifications are less likely to propagate to different locations within the software.
+
+#####  **Strategy of Design**
+
+A good system design strategy is to organize the program modules in such a method that are easy to develop and latter too, change. Structured design methods help developers to deal with the size and complexity of programs. Analysts generate instructions for the developers about how code should be composed and how pieces of code should fit together to form a program.
+
+To design a system, there are two possible approaches:
+
+* Top-down Approach
+
+* Bottom-up Approach
+
+1.**Top-down Approach**: This approach starts with the identification of the main components and then decomposing them into their more detailed sub-components.
+
+![top-down approach](/images/top-down-approach.png)
+
+2.**Bottom-up Approach**: A bottom-up approach begins with the lower details and moves towards up the hierarchy, as shown in fig. This approach is suitable in case of an existing system.
+
+![bottom-up approach](/images/bottom-up-approach.png)
+
+### **Coupling and Cohesion**
+
+##### **Module Coupling**
+
+In software engineering, the coupling is the degree of interdependence between software modules. Two modules that are tightly coupled are strongly dependent on each other. However, two modules that are loosely coupled are not dependent on each other. Uncoupled modules have no interdependence at all within them.
+
+A good design is the one that has low coupling. Coupling is measured by the number of relations between the modules. That is, the coupling increases as the number of calls between modules increase or the amount of shared data is large. Thus, it can be said that a design with high coupling will have more errors.
+
+![Module Coupling](/images/coupling.png)
+
+##### **Types of Coupling**
+
+Types of Module Coupling
+
+1.**No Direct Coupling**: There is no direct coupling between M1 and M2.
+In this case, modules are subordinates to different modules. Therefore, no direct coupling.
+
+![no-direct coupling](/images/no-direct-coupling.png)
+
+2.**Data Coupling**: When data of one module is passed to another module, this is called data coupling.
+
+![data coupling](/images/data-coupling.png)
+
+3.**Stamp Coupling**: Two modules are stamp coupled if they communicate using composite data items such as structure, objects, etc. When the module passes non-global data structure or entire structure to another module, they are said to be stamp coupled. For example, passing structure variable in C or object in C++ language to a module.
+
+4.**Control Coupling**: Control Coupling exists among two modules if data from one module is used to direct the structure of instruction execution in another.
+
+5.**External Coupling**: External Coupling arises when two modules share an externally imposed data format, communication protocols, or device interface. This is related to communication to external tools and devices.
+
+6.**Common Coupling**: Two modules are common coupled if they share information through some global data items.
+
+![common coupling](/images/common-coupling.png)
+
+7.**Content Coupling**: Content Coupling exists among two modules if they share code, e.g., a branch from one module into another module.
+
+##### **Module Cohesion**
+
+In computer programming, cohesion defines to the degree to which the elements of a module belong together. Thus, cohesion measures the strength of relationships between pieces of functionality within a given module. For example, in highly cohesive systems, functionality is strongly related.
+Cohesion is an ordinal type of measurement and is generally described as "high cohesion" or "low cohesion."
+
+![module cohesion](/images/cohesion.png)
+
+##### **Types of Cohesion**
+
+1.**Functional Cohesion**: Functional Cohesion is said to exist if the different elements of a module, cooperate to achieve a single function.
+
+2.**Sequential Cohesion**: A module is said to possess sequential cohesion if the element of a module form the components of the sequence, where the output from one component of the sequence is input to the next.
+
+3.**Communicational Cohesion**: A module is said to have communicational cohesion, if all tasks of the module refer to or update the same data structure, e.g., the set of functions defined on an array or a stack.
+
+4.**Procedural Cohesion**: A module is said to be procedural cohesion if the set of purpose of the module are all parts of a procedure in which particular sequence of steps has to be carried out for achieving a goal, e.g., the algorithm for decoding a message.
+
+5.**Temporal Cohesion**: When a module includes functions that are associated by the fact that all the methods must be executed in the same time, the module is said to exhibit temporal cohesion.
+
+6.**Logical Cohesion**: A module is said to be logically cohesive if all the elements of the module perform a similar operation. For example Error handling, data input and data output, etc.
+
+7.**Coincidental Cohesion**: A module is said to have coincidental cohesion if it performs a set of tasks that are associated with each other very loosely, if at all.
+
+## **Coding**
+
+### **Coding**
+
+The coding is the process of transforming the design of a system into a computer language format. Coding is done by the coder or programmers who are independent people than the designer. The goal is not to reduce the effort and cost of the coding phase, but to cut to the cost of a later stage. The cost of testing and maintenance can be significantly reduced with efficient coding.
+
+**Goals of Coding**
+
+1.**To translate the design of system into a computer language format**: The coding is the process of transforming the design of a system into a computer language format, which can be executed by a computer and that perform tasks as specified by the design of operation during the design phase.
+
+2.**To reduce the cost of later phases**: The cost of testing and maintenance can be significantly reduced with efficient coding.
+
+3.**Making the program more readable**: Program should be easy to read and understand. It increases code understanding having readability and understandability as a clear objective of the coding activity can itself help in producing more maintainable software.
+
+Characteristics of Programming Language
+
+1.**Readability**: A good high-level language will allow programs to be written in some methods that resemble a quite-English description of the underlying functions. The coding may be done in an essentially self-documenting way.
+
+2.**Portability**: High-level languages, being virtually machine-independent, should be easy to develop portable software.
+
+3.**Generality**: Most high-level languages allow the writing of a vast collection of programs, thus relieving the programmer of the need to develop into an expert in many diverse languages.
+
+4.**Brevity**: Language should have the ability to implement the algorithm with less amount of code. Programs mean in high-level languages are often significantly shorter than their low-level equivalents.
+
+5.**Error checking**: A programmer is likely to make many errors in the development of a computer program. Many high-level languages invoke a lot of bugs checking both at compile-time and run-time.
+
+6.**Cost**: The ultimate cost of a programming language is a task of many of its characteristics.
+
+7.**Quick translation**: It should permit quick translation.
+
+8.**Efficiency**: It should authorize the creation of an efficient object code.
+
+9.**Modularity**: It is desirable that programs can be developed in the language as several separately compiled modules, with the appropriate structure for ensuring self-consistency among these modules.
+
+10.**Widely available**: Language should be widely available, and it should be feasible to provide translators for all the major machines and all the primary operating systems.
+
+##### **Coding Standards**
+General coding standards refers to how the developer writes code, so here we will discuss some essential standards regardless of the programming language being used.
+
+The following are some representative coding standards:
+
+1.**Indentation**: Proper and consistent indentation is essential in producing easy to read and maintainable programs.
+
+Indentation should be used to:
+
+* Emphasize the body of a control structure such as a loop or a select statement.
+
+* Emphasize the body of a conditional statement.
+
+* Emphasize a new scope block
+
+2.**Inline comments**: Inline comments analyze the functioning of the subroutine, or key aspects of the algorithm shall be frequently used.
+
+3.**Rules for limiting the use of global**: These rules file what types of data can be declared global and what cannot.
+
+4.**Structured Programming**: Structured (or Modular) Programming methods shall be used. "GOTO" statements shall not be used as they lead to "spaghetti" code, which is hard to read and maintain, except as outlined line in the FORTRAN Standards and Guidelines.
+
+5.**Naming conventions for global variables, local variables, and constant identifiers**: A possible naming convention can be that global variable names always begin with a capital letter, local variable names are made of small letters, and constant names are always capital letters.
+
+6.**Error return conventions and exception handling system**: Different functions in a program report the way error conditions are handled should be standard within an organization. For example, different tasks while encountering an error condition should either return a 0 or 1 consistently.
+
+##### **Coding Guidelines**
+General coding guidelines provide the programmer with a set of the best methods which can be used to make programs more comfortable to read and maintain.
+
+1.**Line Length**: It is considered a good practice to keep the length of source code lines at or below 80 characters. Lines longer than this may not be visible properly on some terminals and tools. Some printers will truncate lines longer than 80 columns.
+
+2.**Spacing**: The appropriate use of spaces within a line of code can improve readability.
+
+3.**The code should be well-documented**: As a rule of thumb, there must be at least one comment line on the average for every three-source line.
+
+4.**The length of any function should not exceed 10 source lines**: A very lengthy function is generally very difficult to understand as it possibly carries out many various functions. For the same reason, lengthy functions are possible to have a disproportionately larger number of bugs.
+
+5.**Do not use goto statements**: Use of goto statements makes a program unstructured and very tough to understand.
+
+6.**Inline Comments**: Inline comments promote readability.
+
+7.**Error Messages**: Error handling is an essential aspect of computer programming. This does not only include adding the necessary logic to test for and handle errors but also involves making error messages meaningful.
+
+### **Programming Style**
+
+Programming style refers to the technique used in writing the source code for a computer program. Most programming styles are designed to help programmers quickly read and understands the program as well as avoid making errors.The goal of good programming style is to provide understandable, straightforward, elegant code. The programming style used in a various program may be derived from the coding standards or code conventions of a company or other computing organization, as well as the preferences of the actual programmer.
+
+Guidelines in respect of programming style:
+
+1.**Clarity and simplicity of Expression**: The programs should be designed in such a manner so that the objectives of the program is clear.
+
+2.**Naming**: In a program, you are required to name the module, processes, and variable, and so on. Care should be taken that the naming style should not be cryptic and non-representative.
+
+3.**Control Constructs**: It is desirable that as much as a possible single entry and single exit constructs used.
+
+4.**Information hiding**: The information secure in the data structures should be hidden from the rest of the system where possible. Information hiding can decrease the coupling between modules and make the system more maintainable.
+
+5.**Nesting**: Deep nesting of loops and conditions greatly harm the static and dynamic behavior of a program. It also becomes difficult to understand the program logic, so it is desirable to avoid deep nesting.
+
+6.**User-defined types**: Make heavy use of user-defined data types like enum, class, structure, and union. These data types make your program code easy to write and easy to understand.
+
+7.**Module size**: The module size should be uniform. The size of the module should not be too big or too small. If the module size is too large, it is not generally functionally cohesive. If the module size is too small, it leads to unnecessary overheads.
+
+8.**Module Interface**: A module with a complex interface should be carefully examined.
+
+9.**Side-effects**: When a module is invoked, it sometimes has a side effect of modifying the program state. Such side-effect should be avoided where as possible.
+
+## **SoftwareTesting**
+
+### **What is SoftwareTesting**
+Software testing is a process of identifying the correctness of a software by considering its all attributes (Reliability, Scalability, Portability, Re-usability, Usability) and evaluating the execution of software components to find the software bugs or errors or defects.
+
+Software testing provides an independent view and objective of the software and gives surety of fitness of the software. It involves testing of all components under the required services to confirm that whether it is satisfying the specified requirements or not. The process is also providing the client with information about the quality of the software.
+
+Testing is mandatory because it will be a dangerous situation if the software fails any of time due to lack of testing. So, without testing software cannot be deployed to the end user.
+
+### **What is Testing** 
+Testing is a group of techniques to determine the correctness of the application under the predefined script but, testing cannot find all the defect of application. The main intent of testing is to detect failures of the application so that failures can be discovered and corrected. It does not demonstrate that a product functions properly under all conditions but only that it is not working in some specific conditions.
+
+Testing includes an examination of code and also the execution of code in various environments, conditions as well as all the examining aspects of the code. In the current scenario of software development, a testing team may be separate from the development team so that Information derived from testing can be used to correct the process of software development.
+
+The success of software depends upon acceptance of its targeted audience, easy graphical user interface, strong functionality load test, etc.
+
+### **Manual Testing**
+Manual testing is a software testing process in which test cases are executed manually without using any automated tool. All test cases executed by the tester manually according to the end user's perspective. It ensures whether the application is working as mentioned in the requirement document or not. Test cases are planned and implemented to complete almost 100 percent of the software application. Test case reports are also generated manually.
+
+Manual testing is a software testing process in which test cases are executed manually without using any automated tool. All test cases executed by the tester manually according to the end user's perspective. It ensures whether the application is working as mentioned in the requirement document or not. Test cases are planned and implemented to complete almost 100 percent of the software application. Test case reports are also generated manually.
+
+Manual testing is mandatory for every newly developed software before automated testing. This testing requires great efforts and time, but it gives the surety of bug-free software.Manual testing is essential because one of the software testing fundamentals is "100% automation is not possible."
+
+Types of manual testing are given below:
+
+Types of Manual Testing:
+
+1.Black Box Testing 
+
+2.White Box Testing 
+
+3.Unit Testing
+
+4.System Testing 
+
+5.Integration Testing
+
+6.Acceptance Testing
+
+##### **How to perform Manual Testing**
+1.First, tester examines all documents related to software, to select testing areas. 
+
+2.Tester analyses requirement document to cover all requirements stated by the customer.
+
+3.Tester develops the test cases according to the requirement document.
+
+4.All test cases are executed manually by using Black box testing and white box testing.
+
+5.If bugs occurred then the testing team informs to the development team. 
+
+6.Development team fixes bugs and handed software to the testing team for retesting.
+
+##### **Pros of Manual Testing**
+1.It does not require programming knowledge while using the Black box method. 
+
+2.It is used to test dynamically changing GUI designs. 
+
+3.Tester interacts with software as a real user so that they are able to discover usability and user interface issues. 
+
+4.It ensures that the software is a hundred percent bug-free.
+
+5.It is cost effective. 
+
+6.Easy to learn for new testers.
+
+##### **Cons of Manual Testing**
+
+1.It requires a large number of human resources. 
+
+2.It is very time-consuming. 
+
+3.Tester develops test cases based on their skills and experience. There is no evidence that they have covered all functions or not. 
+
+4.Test cases cannot be used again. Need to develop separate test cases for each new software.
+
+5.It does not provide testing on all aspects of testing.
+
+6.Since two teams work together, sometimes it is difficult to understand each other's motives, it can mislead the process.
+
+##### **Manual testing tools**
+
+**Selenium**
+
+ Selenium is used to test the Web Application. 
+
+**Appium**
+
+Appium is used to test the mobile application.
+
+**TestLink**
+
+TestLink is used for test management.
+
+**Postman**
+
+Postman is used for API testing.
+
+**Firebug**
+
+Firebug is an online debugger.
+
+**JMeter**
+
+JMeter is used for load testing of any application.
+
+**Mantis**
+
+Mantis is used for bug tracking.
+
+### **Automation Testing**
+
+When the testing case suites are performed by using automated testing tools is known as Automation Testing. The testing process is done by using special automation tools to control the execution of test cases and compare the actual result with the expected result. Automation testing requires a pretty huge investment of resources and money.
+
+Generally, repetitive actions are tested in automated testing such as regression tests. The testing tools used in automation testing are used not only for regression testing but also for automated GUI interaction, data set up generation, defect logging, and product installation. 
+
+The goal of automation testing is to reduce manual test cases but not to eliminate any of them. Test suits can be recorded by using the automation tools, and tester can play these suits again as per the requirement. Automated testing suites do not require any human intervention.
+
+##### **Pros of Automation testing**
+
+1.Automation testing takes less time than manual testing. 
+
+2.A tester can test the response of the software if the execution of the same operation is repeated several times. 
+
+3.Automation Testing provides re-usability of test cases on testing of different versions of the same software. 
+
+4.Automation testing is reliable as it eliminates hidden errors by executing test cases again in the same way. 
+
+5.Automation Testing is comprehensive as test cases cover each and every feature of the application.
+
+6.It does not require many human resources, instead of writing test cases and testing them manually, they need an automation testing engineer to run them. 
+
+7.The cost of automation testing is less than manual testing because it requires a few human resources.
+
+##### **Cons of Automation testing**
+
+1.Automation Testing requires high-level skilled testers.
+
+2.It requires high-quality testing tools. 
+
+3.When it encounters an unsuccessful test case, the analysis of the whole event is complicated. 
+
+4.Test maintenance is expensive because high fee license testing equipment is necessary.
+
+5.Debugging is mandatory if a less effective error has not been solved, it can lead to fatal results.
+
+## **Software Maintenance**
+
+### **Software Maintenance**
+Software maintenance is a part of the Software Development Life Cycle. Its primary goal is to modify and update software application after delivery to correct errors and to improve performance. Software is a model of the real world. When the real world changes, the software require alteration wherever possible.Software Maintenance is an inclusive activity that includes error corrections, enhancement of capabilities, deletion of obsolete capabilities, and optimization.
+
+**Need for Maintenance**
+
+1.Correct errors
+
+2.Change in user requirement with time
+
+3.Changing hardware/software requirements
+
+4.To improve system efficiency
+
+5.To optimize the code to run faster
+
+6.To modify the components
+
+7.To reduce any unwanted side effects
+
+##### **Types of Software Maintenance**
+
+1.**Corrective Maintenance**:Corrective maintenance aims to correct any remaining errors regardless of where they may cause specifications, design, coding, testing, and documentation, etc.
+
+2.**Adaptive Maintenance**:It contains modifying the software to match changes in the ever-changing environment.
+
+3.**Preventive Maintenance**:It is the process by which we prevent our system from being obsolete. It involves the concept of reengineering & reverse engineering in which an old system with old technology is re-engineered using new technology. This maintenance prevents the system from dying out.
+
+4.**Perfective Maintenance**:It defines improving processing efficiency or performance or restricting the software to enhance changeability. This may contain enhancement of existing system functionality, improvement in computational efficiency, etc.
+
+### **Causes of Software Maintenance Problems**
+
+**Lack of Traceability**
+
+1.Codes are rarely traceable to the requirements and design specifications.
+
+2.It makes it very difficult for a programmer to detect and correct a critical defect affecting customer operations.
+
+3.Like a detective, the programmer pores over the program looking for clues.
+
+4.Life Cycle documents are not always produced even as part of a development project.
+
+**Lack of Code Comments**
+
+Most of the software system codes lack adequate comments. Lesser comments may not be helpful in certain situations.
+
+**Obsolete Legacy Systems**
+
+1.In most of the countries worldwide, the legacy system that provides the backbone of the nation's critical industries, e.g., telecommunications, medical, transportation utility services, were not designed with maintenance in mind.
+
+2.They were not expected to last for a quarter of a century or more!.
+
+3.As a consequence, the code supporting these systems is devoid of traceability to the requirements, compliance to design and programming standards and often includes dead, extra and uncommented code, which all make the maintenance task next to the impossible.
+
+##### **Software Maintenance Process**
+
+![Software maintenance process](/images/causes-of-software-maintenance-problems.png)
+
+**Program Understanding**
+
+The first step consists of analyzing the program to understand.
+
+**Generating a Particular maintenance problem**
+
+The second phase consists of creating a particular maintenance proposal to accomplish the implementation of the maintenance goals.
+
+**Ripple Effect**
+
+The third step consists of accounting for all of the ripple effects as a consequence of program modifications.
+
+**Modified Program Testing**
+
+The fourth step consists of testing the modified program to ensure that the revised application has at least the same reliability level as prior.
+
+**Maintainability**
+
+Each of these four steps and their associated software quality attributes is critical to the maintenance process. All of these methods must be combined to form maintainability.
+
+
+
+
 
 
 
