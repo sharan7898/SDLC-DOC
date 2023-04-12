@@ -607,7 +607,7 @@ The project manager is responsible for making decisions. The project manager is 
 5.Modifies the project plan to deal with the situation.
 
 
-### Activities
+### **Activities**
 
 Software Project Management consists of many activities, that includes planning of the project, deciding the scope of product, estimation of cost in different terms, scheduling of tasks, etc.
 
@@ -679,7 +679,7 @@ This can be considered the most difficult. To estimate the cost of the project, 
 
 Project planning is a management process that focuses on the activities required to complete a project successfully. Project planning helps to prevent problems that occur during the project development, such as a change in the project, non-availability of resources, etc. Project planning helps in better utilization of resources and time.
 
-### Software Project Planning
+### **Software Project Planning**
 
 A Software Project is the complete methodology of programming advancement from requirement gathering to testing and support, completed by the execution procedures, in a specified period to achieve intended software product.
 
@@ -713,7 +713,7 @@ The project plan is not static; it can be modified according to the needs of the
 
 Sometimes it happens that some plans are not working accordingly, then the project manager needs to find alternatives and chooses the best one among them. Make the changes you need, re-approve the changes, and implement it.
 
-### Software cost estimation
+### **Software cost estimation**
 For any new software project, it is necessary to know how much it will cost to develop and how much development time will it take. These estimates are needed before development is initiated, but how is this done? Several estimation procedures have been developed and are having the following attributes in common.
 
 1.Project scope must be established in advanced.
@@ -736,7 +736,7 @@ For any new software project, it is necessary to know how much it will cost to d
 2.In monitoring the project's progress, one needs to access whether the project is progressing according to the  procedure and takes corrective action, if necessary.
 
 
-### COCOMO Model
+### **COCOMO Model**
 
 The constructive cost model (COCOMO) is one of the most widely used software cost estimation models. This model is developed by B.W.Boehm in 1981. COCOMO model is based on LOC, i.e., the number of lines of code. This model can be classified into three categories basic, intermediate, and detailed sub-models.
 
@@ -860,7 +860,7 @@ Software development is done in four phases:
 
 **Integration/Test**:In the integration testing, individual units are combined and tested as a whole. The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
-### Putnam Resource Allocation Model
+### **Putnam Resource Allocation Model**
 The Lawrence Putnam model describes the time and effort requires finishing a software project of a specified size. Putnam makes a use of a so-called The Norden/Rayleigh Curve to estimate project effort, schedule & defect rate as shown in fig.
 
 ![Putnam model](images/putnammodel.jpg)<!-- style = "width:550px;height:400px;margin-left:180px;"-->
@@ -920,7 +920,7 @@ From the above expression, it can be easily observed that when the schedule of a
 
 A clear definition of a "Risk" is a problem that could cause some loss or threaten the progress of the project, but which has not happened yet. These potential issues might harm cost, schedule or technical success of the project and the quality of our software device.
 
-### Risk management
+### **Risk management**
 
 Risk Management is the system of identifying addressing and eliminating these problems before they can damage the project.A software project can be concerned with a large variety of risks. In order to be adept to systematically identify the significant risks which might affect a software project, it is essential to classify risks into different classes. The project manager can then check which risks from each class are relevant to the project.
 
@@ -953,7 +953,7 @@ There are three main classifications of risks which can affect a software projec
 5.**Continuous process**: In this phase, the risks are tracked continuously throughout the risk management paradigm.
 
  
-### Risk Management activities
+### **Risk Management activities**
 
 Risk management consists of three main activities,
 
@@ -968,7 +968,7 @@ The objective of risk assessment is to division the risks in the condition of th
 
 Based on these two methods, the priority of each risk can be estimated:
 
-            <!-- style = "text-align:center;" -->        p = r * s 
+<!-- style = "text-align:center;" -->        p = r * s 
 
 Where p is the priority with which the risk must be controlled, r is the probability of the risk becoming true, and s is the severity of loss caused due to the risk becoming true. If all identified risks are set up, then the most likely and damaging risks can be controlled first, and more comprehensive risk abatement methods can be designed for these risks.
 
@@ -977,19 +977,19 @@ A project can be of use by a large variety of risk. To identify the significant 
 
 There are different types of risks which can affect a software project:
 
-1.**Technology risks**: Risks that assume from the software or hardware technologies that are used to develop the system.
+* **Technology risks**: Risks that assume from the software or hardware technologies that are used to develop the system.
 
-2.**People risks**: Risks that are connected with the person in the development team.
+* **People risks**: Risks that are connected with the person in the development team.
 
-3.**Organizational risks**: Risks that assume from the organizational environment where the software is being developed.
+* **Organizational risks**: Risks that assume from the organizational environment where the software is being developed.
 
-4.**Tools risks**: Risks that assume from the software tools and other support software used to create the system.
+* **Tools risks**: Risks that assume from the software tools and other support software used to create the system.
 
-5.**Requirement risks**: Risks that assume from the changes to the customer requirement and the process of managing the requirements change.
+* **Requirement risks**: Risks that assume from the changes to the customer requirement and the process of managing the requirements change.
 
-6.**Estimation risks**: Risks that assume from the management estimates of the resources required to build the system
+* **Estimation risks**: Risks that assume from the management estimates of the resources required to build the system
 
-2. **Risk Analysis**: During the risk analysis process, you have to consider every identified risk and make a perception of the probability and seriousness of that risk.
+2.**Risk Analysis**: During the risk analysis process, you have to consider every identified risk and make a perception of the probability and seriousness of that risk.
 There is no simple way to do this. You have to rely on your perception and experience of previous projects and the problems that arise in them.
 
 It is not possible to make an exact, the numerical estimate of the probability and seriousness of each risk. Instead, you should authorize the risk to one of several bands:
@@ -999,7 +999,7 @@ It is not possible to make an exact, the numerical estimate of the probability a
 2.The effect of the risk might be determined as catastrophic (threaten the survival of the plan), serious (would cause significant delays), tolerable (delays are within allowed contingency), or insignificant.
 
 
-**Risk Control** 
+#### **Risk Control** 
 
 It is the process of managing risks to achieve desired outcomes. After all, the identified risks of a plan are determined; the project must be made to include the most harmful and the most likely risks. Different risks need different containment methods. In fact, most risks need ingenuity on the part of the project manager in tackling the risk.
 
@@ -1027,7 +1027,7 @@ Again, there is no easy process that can be followed for contingency planning. I
 
 2.**Risk Monitoring**: Risk monitoring is the method king that your assumption about the product, process, and business risks has not changed.
 
-### Project Scheduling
+### **Project Scheduling**
 
 Project-task scheduling is a significant project planning activity. It comprises deciding which functions would be taken up when. To schedule the project plan, a software project manager wants to do the following:
 
@@ -1052,13 +1052,13 @@ Once the activity network representation has been processed out, resources are a
 
 ## Software Requirements
 
-### Software Requirement Specifications
+### **Software Requirement Specifications**
 
 The production of the requirements stage of the software development process is Software Requirements Specifications (SRS) (also called a requirements document). This report lays a foundation for software engineering activities and is constructing when entire requirements are elicited and analyzed. SRS is a formal report, which acts as a representation of software that enables the customers to review whether it (SRS) is according to their requirements. Also, it comprises user requirements for a system as well as detailed specifications of the system requirements.
 
 The SRS is a specification for a specific software product, program, or set of applications that perform particular functions in a specific environment. It serves several goals depending on who is writing it. First, the SRS could be written by the client of a system. Second, the SRS could be written by a developer of the system. The two methods create entirely various situations and establish different purposes for the document altogether. The first case, SRS, is used to define the needs and expectation of the users. The second case, SRS, is written for various purposes and serves as a contract document between customer and developer.
 
-**Characteristics of good SRS**
+### **Characteristics of good SRS**
 
 Following are the characteristics of a good SRS document:
 
@@ -1086,7 +1086,7 @@ Following are the characteristics of a good SRS document:
 
 12.**Right level of abstraction**: If the SRS is written for the requirements phase, the details should be explained explicitly. Whereas, for a feasibility study, fewer details can be used. Hence, the level of abstraction varies according to the purpose of the SRS.
 
- **Properties of a good SRS document**
+### **Properties of a good SRS document**
 
 **Concise**: The SRS report should be concise and at the same time, unambiguous, consistent, and complete. Verbose and irrelevant descriptions decrease readability and also increase error possibilities.
 
@@ -1327,7 +1327,7 @@ The coding is the process of transforming the design of a system into a computer
 
 3.**Making the program more readable**: Program should be easy to read and understand. It increases code understanding having readability and understandability as a clear objective of the coding activity can itself help in producing more maintainable software.
 
-Characteristics of Programming Language
+### **Characteristics of Programming Language**
 
 1.**Readability**: A good high-level language will allow programs to be written in some methods that resemble a quite-English description of the underlying functions. The coding may be done in an essentially self-documenting way.
 
