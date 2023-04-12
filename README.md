@@ -1,40 +1,61 @@
-# SDLC<!-- style="text-align:center;" -->
+# SDLC 
 
-<!-- style="font-size:40px; text-align:center;" -->SoftWare Development Life Cycle
+* SDLC stands for Software Development Life Cycle.
 
-## **SDLC**
-SDLC stands for Software Development Life Cycle. SDLC is a process that consists of a series of planned activities to develop or alter the Software Products
+* Software Development Life Cycle  is  used by the software industry to design, develop and test high quality softwares. 
 
-Software Development Life Cycle  is  used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets customer expectations, reaches completion within times and cost estimates. 
+            [**What is SDLC**](#what-is-sdlc)
 
-## **What is SDLC?**
+            [**SDLC Models**](#sdlc-models)
 
-   Software Development Life Cycle, is a structured approach to the development of software applications. The SDLC process is a series of steps or phases that are followed by software development teams to design, develop, test, and deploy software applications.
+            [**Software Management**](#software-management)
+
+            [**Project Planning**](#project-planning)
+
+            [**Risk Management**](#risk-management)
+
+            [**Software Requirements**](#software-requirements)
+
+            [**Software Design**](#software-design)
+
+            [**Coding**](#coding)
+
+            [**Software Testing**](#software-testing)
+
+            [**Software Maintenance**](#software-maintenance)
+
+## **What is SDLC**
+
+* Software Development Life Cycle, is a structured approach to the development of software applications. 
+
+* The SDLC process is a series of steps or phases that are followed by software development teams to design, develop, test, and deploy software applications.
 
 
-  The SDLC process typically includes the following stages:
+The SDLC process typically includes the following stages:
 
-  1.**Planning** : This stage involves defining the project scope, goals, and objectives, as well as identifying the resources, risks, and constraints associated with the project.
+1.**Planning** : This stage involves defining the project scope, goals, and objectives, as well as identifying the resources, risks, and constraints associated with the project.
 
-  2.**Requirements gathering** : In this stage, the requirements for the software application are gathered from stakeholders, including end-users, clients, and other relevant parties.
+2.**Requirements gathering** : In this stage, the requirements for the software application are gathered from stakeholders, including end-users, clients, and other relevant parties.
 
-  3.**Design** : The design stage involves creating a detailed plan for the software application, including the system architecture, database design, and user interface design.
+3.**Design** : The design stage involves creating a detailed plan for the software application, including the system architecture, database design, and user interface design.
 
-  4.**Development** : During the development stage, the software code is written and the application is built according to the design specifications.
+4.**Development** : During the development stage, the software code is written and the application is built according to the design specifications.
 
-  5.**Testing** : Once the software application is built, it undergoes a series of tests to ensure that it meets the functional, performance, and security requirements.
+5.**Testing** : Once the software application is built, it undergoes a series of tests to ensure that it meets the functional, performance, and security requirements.
 
-  6.**Deployment** : The software application is deployed to the production environment, and the end-users begin to use it.
+6.**Deployment** : The software application is deployed to the production environment, and the end-users begin to use it.
 
-  7.**Maintenance** : After the software application is deployed, it requires ongoing maintenance, updates, and support to ensure that it continues to meet the changing needs of the users.
+7.**Maintenance** : After the software application is deployed, it requires ongoing maintenance, updates, and support to ensure that it continues to meet the changing needs of the users.
 
 
-![Sdlclifecycle](images/Sdlcimage1.png)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
+![Sdlclifecycle](images/Sdlcimage1.png)<!-- style = "width:450px;height:300px;margin-left:50px;"-->
 
 
 ## SDLC Models
 
- There are various software development life cycle models defined and       designed which are followed during the software development process. These models are also referred as Software Development Process Models". Each process model follows a Series of steps unique to its type to ensure success in the process of software development.
+* There are various software development life cycle models defined and designed which are followed during the software development process.
+
+* These models are also referred as Software Development Process Models". 
 
  Here,are the some important models, 
 
@@ -58,14 +79,18 @@ Software Development Life Cycle  is  used by the software industry to design, de
 
 
 
-## **WaterFall Model**
+### **WaterFall Model**
 <br>
-The Waterfall Model was the first Process Model to be introduced. It is also referred to as a  linear-sequential model cycle.
-In a waterfall model, each phase must be completed before the next phase can begin and there is no overlapping in the phases.
-The waterfall Model illustrates the software development process in a linear sequential flow. This means that any phase in the development process begins only if the previous phase is complete.
-In this waterfall model, the phases do not overlap.
-In The Waterfall approach, the whole process of software development is divided into separate phases.
-In this Waterfall model, typically, the outcome of one phase acts as the input for the next phase sequentially.
+
+* The Waterfall Model was the first Process Model to be introduced. It is also referred to as a  linear-sequential model cycle.
+
+* In a waterfall model, each phase must be completed before the next phase can begin.
+
+* This means that any phase in the development process begins only if the previous phase is complete.
+
+* In this waterfall model, the phases do not overlap.
+
+* In this Waterfall model, typically, the outcome of one phase acts as the input for the next phase sequentially.
 
 #### **Phases**
 <br>
@@ -83,9 +108,7 @@ The sequential phases in Waterfall model are −
 
 6.**Maintenance** − There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment
 
-![WaterFallModel](images/waterfall3.jpg)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
-
-All these phases are cascaded to each other in which progress is seen as flowing steadily downwards through the phases. The next phase is started only after the defined set of goals are achieved for previous phase and it is signed off, so the name "Waterfall Model".
+![WaterFallModel](images/waterfall3.jpg)<!-- style = "width:450px;height:300px;margin-left:50px;"-->
 
 
 #### **Pros of WaterFall Model**
@@ -118,7 +141,15 @@ All these phases are cascaded to each other in which progress is seen as flowing
 ## Iterative Model
 <br>
 
-In this Model, you can start with some of the software specifications and develop the first version of the software. After the first version if there is a need to change the software, then a new version of the software is created with a new iteration. Every release of the Iterative Model finishes in an exact and fixed period that is called iteration. The Iterative Model allows the accessing earlier phases, in which the variations made respectively. The final output of the project renewed at the end of the SDLC process.
+* In this Model, you can start with some of the software specifications and develop the first version of the software.
+
+* After the first version if there is a need to change the software, then a new version of the software is created with a new iteration. 
+
+* Every release of the Iterative Model finishes in an exact and fixed period that is called iteration.
+
+* The Iterative Model allows the accessing earlier phases, in which the variations made respectively.
+
+* The final output of the project renewed at the end of the SDLC process.
 
 #### **Phases**
 <br>
@@ -139,7 +170,7 @@ The Iterative model includes the following phases –
 
 7.**Maintenance**: In the maintenance phase, after deployment of the software in the working environment there may be some bugs, some errors or new updates are required. Maintenance involves debugging and new addition options.
 
-![iterative Model](images/iterativemodel.png)<!-- style = "width:450px; height:300px; margin-left:250px;"-->
+![iterative Model](images/iterativemodel.png)<!-- style = "width:450px; height:300px; margin-left:50px;"-->
 
 
 #### **Pros of Iterative Model**
@@ -173,7 +204,15 @@ The Iterative model includes the following phases –
 ## Spiral Model
 <br>
 
-The Spiral model is a combination of iterative development process model and the waterfall model with a very high significance on risk analysis. It implements the potential for rapid development of new versions of the software. Using the spiral model, the software is developed in a series of incremental releases. During the early iterations, the additional release may be a paper model or prototype. During later iterations, more and more complete versions of the engineered system are produced.
+* The Spiral model is a combination of iterative development process model and the waterfall model with a very high significance on risk analysis. 
+
+* It implements the potential for rapid development of new versions of the software.
+
+* Using the spiral model, the software is developed in a series of incremental releases. 
+
+* During the early iterations, the additional release may be a paper model or prototype.
+
+* During later iterations, more and more complete versions of the engineered system are produced.
 
 #### **Phases**
 <br>
@@ -189,9 +228,8 @@ The Spiral Model Includes the following phases:-
 4.**Planning**: Finally, the next step is planned. The project is reviewed, and a choice made whether to continue with a further period of the spiral. If it is determined to keep, plans are drawn up for the next step of the project.
 
 
-![Spiral Model](images/spiralmodel.jpg)<!-- style = "width:450px;height:300px;margin-left:250px;"-->
+![Spiral Model](images/spiralmodel.jpg)<!-- style = "width:450px;height:300px;margin-left:50px;"-->
 
-Based on the customer evaluation, the software development process enters the next iteration and subsequently follows the linear approach to implement the feedback suggested by the customer. The process of iterations along the spiral continues throughout the life of the software.
 
 #### **Pros of Spiral Model**
 <br>
@@ -223,7 +261,14 @@ Based on the customer evaluation, the software development process enters the ne
 ## V-Model
 <br>
 
-V-model also referred to as the Verification and Validation Model. In this, each phase of SDLC must complete before the next phase starts. It follows a sequential design process same as the waterfall model. Testing of the device is planned in parallel with a corresponding stage of development.
+* V-model also referred to as the Verification and Validation Model.
+
+* In this, each phase of SDLC must complete before the next phase starts. 
+
+* It follows a sequential design process same as the waterfall model.
+
+* Testing of the device is planned in parallel with a corresponding stage of development.
+
 
 **Verification**: It involves a static analysis method (review) done without executing code. It is the process of evaluation of the product development process to find whether specified requirements meet.
 
@@ -289,13 +334,23 @@ The Validation of V-Model include the following steps:-
 
 ## Big-Bang Model
 <br>
-The Big Bang model is an SDLC model where we do not follow any specific process. The development just starts with the required money and efforts as the input, and the output is the software developed which may or may not be as per customer requirement. This Big Bang Model does not follow a procedure and there is a very little planning required. Even the customer is not sure about what exactly he wants and the requirements are implemented on the fly without much analysis.
 
-This model is ideal for small projects like academic projects or practical projects. One or two developers can work together on this model.
+* The Big Bang model is an SDLC model where we do not follow any specific process. 
+
+* The development just starts with the required money and efforts as the input, and the output is the software developed which may or may not be as per customer requirement.
+
+* This Big Bang Model does not follow a procedure and there is a very little planning required.
+
+* Even the customer is not sure about what exactly he wants and the requirements are implemented on the fly without much analysis.
+
+
+
 
 **When to use Big-Bang model ?**
 
-As we discussed above, this model is required when this project is small like an academic project or a practical project. This method is also used when the size of the developer team is small and when requirements are not defined, and the release date is not confirmed or given by the customer.
+* This model is required when this project is small like an academic project or a practical project.
+
+* This method is also used when the size of the developer team is small and when requirements are not defined, and the release date is not confirmed or given by the customer.
 
 #### **Pros of Big-Bang  Model**
 <br>
@@ -324,7 +379,14 @@ As we discussed above, this model is required when this project is small like an
 ## Incremental Model
 <br>
 
-Incremental Model is a process of software development where requirements divided into multiple standalone modules of the software development cycle. In this model, each module goes through the requirements, design, implementation and testing phases. Every subsequent release of the module adds function to the previous release. The process continues until the complete system achieved.
+* Incremental Model is a process of software development where requirements divided into multiple standalone modules of the software development cycle. 
+
+* In this model, each module goes through the requirements, design, implementation and testing phases.
+
+* Every subsequent release of the module adds function to the previous release. 
+
+* The process continues until the complete system achieved.
+
 
 #### **Phases**
 <br>
@@ -367,14 +429,21 @@ The  Incremental Model includes the following steps:-
 ## Agile Model
 <br>
 
-Agile SDLC model is a combination of iterative and incremental process models with focus on process adaptability and customer satisfaction by rapid delivery of working software product. Agile Methods break the product into small incremental builds. These builds are provided in iterations. Each iteration typically lasts from about one to three weeks. Every iteration involves cross functional teams working simultaneously on various areas like −
+* Agile SDLC model is a combination of iterative and incremental process models with focus on process adaptability and customer satisfaction by rapid delivery of working software product.
 
-* Planning
-* Requirements Analysis
-* Design
-* Coding
-* Unit Testing and
-* Acceptance Testing.
+*  Agile Methods break the product into small incremental builds. 
+
+* These builds are provided in iterations. Each iteration typically lasts from about one to three weeks. 
+
+* Every iteration involves cross functional teams working simultaneously on various areas like −
+
+
+1.Planning
+2.Requirements Analysis
+3.Design
+4.Coding
+5.Unit Testing and
+6.Acceptance Testing.
 
 At the end of the iteration, a working product is displayed to the customer and important stakeholders.
 
@@ -432,7 +501,16 @@ The Agile Modle includes the following steps :
 ## Prototype Model
 <br>
 
-Making a functional replica of a system or product that needs to be engineered is known as prototyping. Prototyping Model involves building, testing, and refining prototypes until one is good enough. It provides a scaled-down replica of the final product and is employed for gathering customer feedback. The typical outcome of a prototype is that it is a relatively unpolished rendition of the real system, possibly displaying constrained functional capabilities, poor dependability, and ineffective performance in comparison to the real software. Additionally, it builds a foundation upon which to build the finished software or system. When the project’s requirements are not fully understood, it functions optimally.
+* Making a functional replica of a system or product that needs to be engineered is known as prototyping. 
+
+* Prototyping Model involves building, testing, and refining prototypes until one is good enough.
+
+*  It provides a scaled-down replica of the final product and is employed for gathering customer feedback. 
+
+* The typical outcome of a prototype is that it is a relatively unpolished rendition of the real system, possibly displaying constrained functional capabilities, poor dependability, and ineffective performance in comparison to the real software. 
+
+* Additionally, it builds a foundation upon which to build the finished software or system. When the project’s requirements are not fully understood, it functions optimally.
+
 
 #### **Phases**
 <br>
@@ -458,20 +536,35 @@ The Prototype Model includes the following steps :-
 
 There are different types of software prototypes used in the industry. 
 
-**Throwaway/Rapid Prototyping**
+1.**Throwaway/Rapid Prototyping**
 
-Throwaway prototyping is also called as rapid or close ended prototyping. This type of prototyping uses very little efforts with minimum requirement analysis to build a prototype. Once the actual requirements are understood, the prototype is discarded and the actual system is developed with a much clear understanding of user requirements.
+* This type of prototyping uses very little efforts with minimum requirement analysis to build a prototype.
 
-**Evolutionary Prototyping**
+* Once the actual requirements are understood, the prototype is discarded and the actual system is developed with a much clear understanding of user requirements.
 
-Evolutionary prototyping also called as breadboard prototyping is based on building actual functional prototypes with minimal functionality in the beginning. The prototype developed forms the heart of the future prototypes on top of which the entire system is built. By using evolutionary prototyping, the well-understood requirements are included in the prototype and the requirements are added as and when they are understood.
 
-**Incremental Prototyping**
+2.**Evolutionary Prototyping**
 
-Incremental prototyping refers to building multiple functional prototypes of the various sub-systems and then integrating all the available prototypes to form a complete system.
+* Evolutionary prototyping also called as breadboard prototyping is based on building actual functional prototypes with minimal functionality in the beginning. 
 
-**Extreme Prototyping**
-Extreme prototyping is used in the web development domain. It consists of three sequential phases. First, a basic prototype with all the existing pages is presented in the HTML format. Then the data processing is simulated using a prototype services layer. Finally, the services are implemented and integrated to the final prototype. This process is called Extreme Prototyping used to draw attention to the second phase of the process, where a fully functional UI is developed with very little regard to the actual services.
+* The prototype developed forms the heart of the future prototypes on top of which the entire system is built. 
+
+* By using evolutionary prototyping, the well-understood requirements are included in the prototype and the requirements are added as and when they are understood.
+
+3.**Incremental Prototyping**
+
+* Incremental prototyping refers to building multiple functional prototypes of the various sub-systems and then integrating all the available prototypes to form a complete system.
+
+4.**Extreme Prototyping**
+
+* Extreme prototyping is used in the web development domain. It consists of three sequential phases. 
+
+* First, a basic prototype with all the existing pages is presented in the HTML format.
+
+* Then the data processing is simulated using a prototype services layer. 
+
+* Finally, the services are implemented and integrated to the final prototype. 
+
 
 #### **Pros of Prototype Model**
 <br>
@@ -510,7 +603,13 @@ Extreme prototyping is used in the web development domain. It consists of three 
 ## RAD Model
 <br>
 
-The RAD (Rapid Application Development) model is based on iterative prototyping and iterative development without involving any specific planning. The process of developing the software itself requires the planning necessary for product development. Rapid application development aims to gather customer needs through workshops or focus teams, initial testing of iterations, using iterative models, reusing existing designs, continuous integration, and faster delivery. If the requirements are well understood and described, and the project scope is a constraint, the RAD process enables a development team to create a fully functional system within a concise time period.
+* The RAD (Rapid Application Development) model is based on iterative prototyping and iterative development without involving any specific planning. 
+
+* Rapid application development aims to gather customer needs through workshops or focus teams, initial
+  testing of iterations, using iterative models, reusing existing designs, continuous integration, and faster delivery.
+
+* If the requirements are well understood and described, and the project scope is a constraint, the RAD process enables a development team to create a fully functional system within a concise time period.
+
 
 #### **Phases**
 <br>
@@ -564,17 +663,29 @@ The RAD model includes the following steps :-
 5.Not a good process for long term and big projects.
 
 
-## SoftWare Management 
-
-### **Project Management** 
+## Software Management 
+<br>
 
 **What is Software Project**
 
-Project is a well-defined task, which is a collection of several operations done in order to achieve a goal. Projects can vary from simple to difficult and can be run by one person or hundreds. The project manager or team executive describes and approves the projects.A Software Project is the complete procedure of software development from requirement gathering to testing and maintenance, carried out according to the execution methodologies, in a specified period of time to achieve intended software product.
+* Project is a well-defined task, which is a collection of several operations done in order to achieve a goal. 
+
+* Projects can vary from simple to difficult and can be run by one person or hundreds. The project manager or team executive describes and approves the projects.
+
+* A Software Project is the complete procedure of software development from requirement gathering to testing and maintenance, carried out according to the execution methodologies, in a specified period of time to achieve intended software product.
+
+### **Project Management** 
+<br>
 
 **What is Software Mangement**
 
-Software project management is a way of planning and supervising software projects in a disciplined manner. In software project management, software projects are planned, implemented, monitored, and controlled. It is a method for managing and scheduling resources for software development that meet needs. In software project management, customers and developers need to know the duration and cost of a project.
+* Software project management is a way of planning and supervising software projects in a disciplined manner.
+
+* In software project management, software projects are planned, implemented, monitored, and controlled. 
+
+* It is a method for managing and scheduling resources for software development that meet needs. 
+
+* In software project management, customers and developers need to know the duration and cost of a project.
 
 **Need for Software Management**
 
@@ -587,12 +698,17 @@ There are three software project management needs,
 3.Quality
 
 
-Delivering a high-quality product is an essential part of the software organization while keeping costs within the client's budget and delivering the project on time. There are many factors, external and internal, which may affect these three factors. Any of three-factor can severely affect the other two.
+* Delivering a high-quality product is an essential part of the software organization while keeping costs within the client's budget and delivering the project on time. 
+* There are many factors, external and internal, which may affect these three factors. Any of three-factor can severely affect the other two.
 
-#### **Product Manager**
+##### **Product Manager**
+<br>
 
-The project manager is the person who has overall responsibility for planning, designing, implementing, monitoring, controlling, and closure of a project. Project managers play a key role in the achievement of projects.
-The project manager is responsible for making decisions. The project manager is used to managing risk and reduce uncertainty. Every decision made by the project manager must directly beneficial for their project.
+* The project manager is the person who has overall responsibility for planning, designing, implementing, monitoring, controlling, and closure of a project. Project managers play a key role in the achievement of projects.
+
+* The project manager is responsible for making decisions. The project manager is used to managing risk and reduce uncertainty. 
+
+* Every decision made by the project manager must directly beneficial for their project.
 
 **Role of Product Manager**
 
@@ -608,6 +724,7 @@ The project manager is responsible for making decisions. The project manager is 
 
 
 ### **Activities**
+<br>
 
 Software Project Management consists of many activities, that includes planning of the project, deciding the scope of product, estimation of cost in different terms, scheduling of tasks, etc.
 
@@ -627,15 +744,25 @@ Software Project Management consists of many activities, that includes planning 
 
 
 
-**Project planning**
+##### **Project planning**
+<br>
 
-Software project planning is work that is done before the production of software starts. It is for software products but does not involve any concrete activity that has any relationship with software production. It is a set of multiple processes that facilitate software production.
+* Software project planning is work that is done before the production of software starts.
 
-**Scope Management** 
+* It is for software products but does not involve any concrete activity that has any relationship with software production. 
 
-It defines the scope of the project; It includes all activities, the process required to create a deliverable software product. Scope management is necessary because it clearly defines what will and will not be done in the project. This makes the project to include limited and quantitative tasks, which can be easily documented and in turn, avoids cost and time.
+* It is a set of multiple processes that facilitate software production.
 
-These are the points necessary during project scope manegement
+##### **Scope Management** 
+<br>
+
+* It defines the scope of the project; It includes all activities, the process required to create a deliverable software product.
+
+* Scope management is necessary because it clearly defines what will and will not be done in the project. 
+
+* This makes the project to include limited and quantitative tasks, which can be easily documented and in turn, avoids cost and time.
+
+**These are the points necessary during project scope manegement**
 
 1.Define the scope.
 
@@ -648,23 +775,40 @@ These are the points necessary during project scope manegement
 5.Monitor the scope by adding changes to the scope.
 
 
-**Project Estimation**
+##### **Project Estimation**
+<br>
 
-Accurate estimation of various measures is essential for effective management. With the right estimates, managers can manage and control the project more efficiently and effectively.
+* Accurate estimation of various measures is essential for effective management.
 
-**Software size estimation**
+* With the right estimates, managers can manage and control the project more efficiently and effectively.
 
-Estimating the size of the software can be in KLOC (Kilometer lines of code) or by counting the number of function points in the software. The number of lines of code depends on the coding practices and function points according to customer or software requirements.
+##### **Software size estimation**
+<br>
 
-**Effort estimation**
+* Estimating the size of the software can be in KLOC (Kilometer lines of code) or by counting the number of function points in the software. 
 
-Managers estimate the effort required in terms of time and manpower required to produce the software. The size of the software for estimating effort must be known. This can be achieved either by the experience of the managers, the historical data of the organization, or the software size that can be converted into efforts using some standard formulas.
+* The number of lines of code depends on the coding practices and function points according to customer or software requirements.
 
-**Time estimation**
+##### **Effort estimation**
+<br>
 
-When the effort and size assessed, then the time needed to develop the software can be estimated. The required efforts are separated into sub-categories according to the requirement specifications and interdependencies of the various components of the software. Work Breakthrough Structure is used to divide tasks into smaller tasks.
+* Managers estimate the effort required in terms of time and manpower required to produce the software.
 
-**Cost estimation**
+* The size of the software for estimating effort must be known.
+
+* This can be achieved either by the experience of the managers, the historical data of the organization, or the software size that can be converted into efforts using some standard formulas.
+
+##### **Time estimation**
+<br>
+
+* When the effort and size assessed, then the time needed to develop the software can be estimated.
+
+* The required efforts are separated into sub-categories according to the requirement specifications and interdependencies of the various components of the software.
+
+* Work Breakthrough Structure is used to divide tasks into smaller tasks.
+
+##### **Cost estimation**
+<br>
 
 This can be considered the most difficult. To estimate the cost of the project, one must consider it.
 
@@ -674,44 +818,43 @@ This can be considered the most difficult. To estimate the cost of the project, 
 
 3.Expenses involved in travel, communication, training, and support.
 
-
 ## Project Planning
+<br>
 
-Project planning is a management process that focuses on the activities required to complete a project successfully. Project planning helps to prevent problems that occur during the project development, such as a change in the project, non-availability of resources, etc. Project planning helps in better utilization of resources and time.
+* Project planning is a management process that focuses on the activities required to complete a project successfully. 
+
+* Project planning helps to prevent problems that occur during the project development, such as a change in the project, non-availability of resources, etc. 
+
+* Project planning helps in better utilization of resources and time.
 
 ### **Software Project Planning**
 
 A Software Project is the complete methodology of programming advancement from requirement gathering to testing and support, completed by the execution procedures, in a specified period to achieve intended software product.
 
-**Need for Software Mangement**
-
-Project planning is very important for the success of the project. Making the right plan from the beginning of the project planning helps to avoid big mistakes. It assures that the implementation of the project will meet its goal on time and within the budget. Resource requirement is estimated based on cost and development time. The project schedule can be very useful for controlling and monitoring the progress of the project. Project development depends on resource and development time.
-
-**Software Project Manager**
-
-Software manager is responsible for planning and scheduling project development. They manage the work to ensure that it is completed to the required standard. They monitor the progress to check that the event is on time and within budget. The project planning must incorporate the major issues like size & cost estimation scheduling, project monitoring, personnel selection evaluation & risk management. To plan a successful software project, we must understand:
-
-1.Scope of work to be completed.
-
-2.Risk analysis.
-
-3.The resources mandatory.
-
-4.The project to be accomplished.
-
-5.Record of being followed.
-
 **Steps for project planning**
 
-Planning is the basic step of project planning that every project manager needs to know. This gives an idea of what is happening at different phases while developing software, but they do not provide detail information.
+* Planning is the basic step of project planning that every project manager needs to know.
 
-At the beginning of any project, the project manager does not have any plan. To develop a good plan for the project, the project manager needs to spend some time with the team members and explain what he wants to achieve together and work on the processes required to achieve the goal. The project manager develops an action plan for how it will be carried out.
+* This gives an idea of what is happening at different phases while developing software, but they do not provide detail information.
 
-**How to manage your plan**
+* At the beginning of any project, the project manager does not have any plan. 
 
-The project plan is not static; it can be modified according to the needs of the customer. A project manager is always free to make a change whenever it is needed. It may be possible that the project schedule will change almost daily, but mostly the delivery date and cost management processes do not change during the life of the project.
+* To develop a good plan for the project, the project manager needs to spend some time with the team members and explain what he wants to achieve together and work on the processes required to achieve the goal. 
 
-Sometimes it happens that some plans are not working accordingly, then the project manager needs to find alternatives and chooses the best one among them. Make the changes you need, re-approve the changes, and implement it.
+* The project manager develops an action plan for how it will be carried out.
+
+##### **How to manage your plan**
+<br>
+
+* The project plan is not static; it can be modified according to the needs of the customer. 
+
+* A project manager is always free to make a change whenever it is needed. 
+
+* It may be possible that the project schedule will change almost daily, but mostly the delivery date and cost management processes do not change during the life of the project.
+
+* Sometimes it happens that some plans are not working accordingly, then the project manager needs to find alternatives and chooses the best one among them.
+
+* Make the changes you need, re-approve the changes, and implement it.
 
 ### **Software cost estimation**
 For any new software project, it is necessary to know how much it will cost to develop and how much development time will it take. These estimates are needed before development is initiated, but how is this done? Several estimation procedures have been developed and are having the following attributes in common.
@@ -757,13 +900,13 @@ Software projects are classified into three categories:
 * Embedded
 
 
-**Organic**: In the organic type, the project deals with developing a well-understood application program; the team size is generally small. This category is for the small to medium size software product. In this type, team members have good experience and knowledge. 
+1.**Organic**: In the organic type, the project deals with developing a well-understood application program; the team size is generally small. This category is for the small to medium size software product. In this type, team members have good experience and knowledge. 
 
-**Semi-detached**: In the semi-detached type, the essential elements are team-size, experience, knowledge of the multiple programming languages. The projects that come under the semi-detached are less familiar and hard to develop. It also requires better guidance, more experienced developers.
+2.**Semi-detached**: In the semi-detached type, the essential elements are team-size, experience, knowledge of the multiple programming languages. The projects that come under the semi-detached are less familiar and hard to develop. It also requires better guidance, more experienced developers.
 
-**Embedded**: In the embedded type, a software project requires the highest level of complexity, creativity, and experience. In this category, the larger team size is needed as compared to the previous models. 
+3.**Embedded**: In the embedded type, a software project requires the highest level of complexity, creativity, and experience. In this category, the larger team size is needed as compared to the previous models. 
 
-**Basic COCOMO Model**
+##### **Basic COCOMO Model**
 
 This model is based on Lines of code. The basic COCOMO model helps to calculate a quick estimation of software development costs. The accuracy of this model is considerably restricted because of the insufficient factor considerations. The Basic COCOMO model’s expression is given as:
 
@@ -790,7 +933,7 @@ Average staff size (SS)  = E/Tdev persons
 When the project size is calculated, then we will have to calculate productivity level
 Productivity (P) = KLOC/E
 
-**Intermediate Model**
+##### **Intermediate Model**
 
 The basic COCOMO model assumes that effort is the only factor, which calculates the number of lines of code and constants with respect to the multiple software systems. The intermediate COCOMO model refines the initial estimate. This estimate is obtained through the basic COCOMO expressions with the help of a set of fifteen cost drivers, based on various attributes of software development. Boehm requires the project manager to rate these fifteen different parameters for a particular project on a scale of one to three. Then based on these three ratings, he suggests an appropriate cost driver value to be multiplied with the initial estimate that was obtained from the basic COCOMO model.
 
@@ -840,89 +983,60 @@ In general, cost drivers can be grouped into four categories:
 
 ![intermediatecocomo](images/intermediatecocomo.PNG)<!-- style = "width:550px; height:400px;margin-left:180px;"-->
 
- **Detailed Model**
+##### **Detailed Model**
 
-In detailed COCOMO, a large amount of work has been done by Boehm to cover all essential aspects of software development. It offers a medium to process all the project characteristics for calculating the software estimation. The detailed model introduces two more capabilities that are as follows:
+* In detailed COCOMO, a large amount of work has been done by Boehm to cover all essential aspects of software development. 
 
-**Phase-sensitive effort multiplier**:Some phases (like design, programming, integration/test) are more affected than others by factors defined by the cost drivers. The detailed model provides a set of phase-sensitive effort multipliers for each cost driver. This helps in determining the workforce allocation for each phase of the project.
+* It offers a medium to process all the project characteristics for calculating the software estimation. 
 
-**Three-level product hierarchy**: In the three-level product hierarchy, there are a module, subsystem, and system levels. The ratings of the cost driver are done at an appropriate level, i.e., the level at which it is most affected by the variation.
+The detailed model introduces two more capabilities that are as follows:
 
-**Development phase**
+1.**Phase-sensitive effort multiplier**:Some phases (like design, programming, integration/test) are more affected than others by factors defined by the cost drivers. The detailed model provides a set of phase-sensitive effort multipliers for each cost driver. This helps in determining the workforce allocation for each phase of the project.
+
+2.**Three-level product hierarchy**: In the three-level product hierarchy, there are a module, subsystem, and system levels. The ratings of the cost driver are done at an appropriate level, i.e., the level at which it is most affected by the variation.
+
+###### **Development phase**
 
 Software development is done in four phases:
 
-**Plans/requirements**:This is the first phase of the software development life cycle. In this phase, the requirements are analyzed, the product plan is set up, and a full product specification is generated for software development. The developers have to give 6% to 8% of the effort and 10% to 40% of the development time.
+1.**Plans/requirements**
 
-**Product design**:In this phase, a software developer starts thinking about "how." How a software UI look like?  How do they function? The software requirements required by the customers are kept in the mind of the designer while designing software. There are two types of designs that are designed by the designer; conceptual design and technical design. Conceptual design tells the customer what the system will exactly do. When the customer approves the design, this process is called validation. Then the conceptual design is converted into a more detailed form of technical design, which helps the developer to understand the hardware and software needs to fulfill the customer's requirement. 
+* In this phase, the requirements are analyzed, the product plan is set up, and a full product specification is generated for software development.
 
-**Programming**:This is the phase where development starts. This phase is divided into two sub-phases: detailed design and code/unit test. This phase requires an effort from 48% to 68% and necessitate 24% to 64% of the development time to finish the coding.
+* The developers have to give 6% to 8% of the effort and 10% to 40% of the development time.
 
-**Integration/Test**:In the integration testing, individual units are combined and tested as a whole. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+2.**Product design**
 
-### **Putnam Resource Allocation Model**
-The Lawrence Putnam model describes the time and effort requires finishing a software project of a specified size. Putnam makes a use of a so-called The Norden/Rayleigh Curve to estimate project effort, schedule & defect rate as shown in fig.
+* The software requirements required by the customers are kept in the mind of the designer while designing software.
 
-![Putnam model](images/putnammodel.jpg)<!-- style = "width:550px;height:400px;margin-left:180px;"-->
+* There are two types of designs that are designed by the designer;conceptual design and technical design. 
 
-Putnam noticed that software staffing profiles followed the well known Rayleigh distribution. Putnam used his observation about productivity levels to derive the software equation:
+* Conceptual design tells the customer what the system will exactly do. When the customer approves the design, this process is called validation. 
 
-![Equation](images/putnamformula.png)<!-- style = "width:550px;height:100px;margin-left:160px;"-->
+* Then the conceptual design is converted into a more detailed form of technical design, which helps the developer to understand the hardware and software needs to fulfill the customer's requirement. 
 
+3.**Programming**
 
-The various terms of this expression are as follows:
+* This is the phase where development starts.
 
-K is the total effort expended (in PM) in product development, and L is the product estimate in KLOC.
+* This phase is divided into two sub-phases: detailed design and code/unit test.
 
-td correlate to the time of system and integration testing. Therefore, td can be relatively considered as the time required for developing the product.
-Ck Is the state of technology constant and reflects requirements that impede the development of the program.
+* This phase requires an effort from 48% to 68% and necessitate 24% to 64% of the development time to finish the coding.
 
-Typical values of Ck = 2 for poor development environment
+4.**Integration/Test**
 
-Ck= 8 for good software development environment
+* In the integration testing, individual units are combined and tested as a whole. 
 
-Ck = 11 for an excellent environment (in addition to following software engineering principles, automated tools and techniques are used).
-
-The exact value of Ck for a specific task can be computed from the historical data of the organization developing it.
-
-Putnam proposed that optimal staff develop on a project should follow the Rayleigh curve. Only a small number of engineers are required at the beginning of a plan to carry out planning and specification tasks. As the project progresses and more detailed work are necessary, the number of engineers reaches a peak. After implementation and unit testing, the number of project staff falls.
-
-Effect of a Schedule change on Cost 
-
-Putnam derived the following expression:
-
-![Equation](images/putnamformula.png)<!-- style = "width:550px;height:100px;margin-left:160px;"-->
-                  
-
-Where, K is the total effort expended (in PM) in the product development
-
-L is the product size in KLOC
-
-td corresponds to the time of system and integration testing
-
-Ck Is the state of technology constant and reflects constraints that impede the progress of the program
-Now by using the above expression, it is obtained that,
-
-![equation 2](images/equation2.png)
-
-For the same product size, C =L3 / Ck3 is a constant.
-
-![equation 3](images/equation3.png)
-
-
-(As project development effort is equally proportional to project development cost) 
-
-From the above expression, it can be easily observed that when the schedule of a project is compressed, the required development effort as well as project development cost increases in proportion to the fourth power of the degree of compression. It means that a relatively small compression in delivery schedule can result in a substantial penalty of human effort as well as development cost.
+* The purpose of this level of testing is to expose faults in the interaction between integrated units.
 
 ## Risk management 
+<br>
 
-**What is Risk**
+* Risk Management is the system of identifying addressing and eliminating these problems before they can damage the project.
 
-A clear definition of a "Risk" is a problem that could cause some loss or threaten the progress of the project, but which has not happened yet. These potential issues might harm cost, schedule or technical success of the project and the quality of our software device.
+* A software project can be concerned with a large variety of risks. In order to be adept to systematically identify the significant risks which might affect a software project, it is essential to classify risks into different classes. 
 
-### **Risk management**
-
-Risk Management is the system of identifying addressing and eliminating these problems before they can damage the project.A software project can be concerned with a large variety of risks. In order to be adept to systematically identify the significant risks which might affect a software project, it is essential to classify risks into different classes. The project manager can then check which risks from each class are relevant to the project.
+* The project manager can then check which risks from each class are relevant to the project.
 
 There are three main classifications of risks which can affect a software project:
 
@@ -941,6 +1055,7 @@ There are three main classifications of risks which can affect a software projec
 
 
 ### **Principle of risk management**
+<br>
 
 1.**Global Perspective**: In this, we review the bigger system description, design, and implementation. We look at the chance and the impact the risk is going to have.
 
@@ -954,6 +1069,7 @@ There are three main classifications of risks which can affect a software projec
 
  
 ### **Risk Management activities**
+<br>
 
 Risk management consists of three main activities,
 
@@ -970,10 +1086,17 @@ Based on these two methods, the priority of each risk can be estimated:
 
 <!-- style = "text-align:center;" -->        p = r * s 
 
-Where p is the priority with which the risk must be controlled, r is the probability of the risk becoming true, and s is the severity of loss caused due to the risk becoming true. If all identified risks are set up, then the most likely and damaging risks can be controlled first, and more comprehensive risk abatement methods can be designed for these risks.
+* Where p is the priority with which the risk must be controlled, r is the probability of the risk becoming true, and s is the severity of loss caused due to the risk becoming true.
 
-1.**Risk Identification**: The project organizer needs to anticipate the risk in the project as early as possible so that the impact of risk can be reduced by making effective risk management planning.
-A project can be of use by a large variety of risk. To identify the significant risk, this might affect a project. It is necessary to categories into the different risk of classes.
+* If all identified risks are set up, then the most likely and damaging risks can be controlled first, and more comprehensive risk abatement methods can be designed for these risks.
+
+
+##### **Risk Identification** 
+<br>
+
+* The project organizer needs to anticipate the risk in the project as early as possible so that the impact of risk can be reduced by making effective risk management planning.
+
+* A project can be of use by a large variety of risk. To identify the significant risk, this might affect a project. It is necessary to categories into the different risk of classes.
 
 There are different types of risks which can affect a software project:
 
@@ -989,8 +1112,12 @@ There are different types of risks which can affect a software project:
 
 * **Estimation risks**: Risks that assume from the management estimates of the resources required to build the system
 
-2.**Risk Analysis**: During the risk analysis process, you have to consider every identified risk and make a perception of the probability and seriousness of that risk.
-There is no simple way to do this. You have to rely on your perception and experience of previous projects and the problems that arise in them.
+##### **Risk Analysis** 
+<br>
+
+* During the risk analysis process, you have to consider every identified risk and make a perception of the probability and seriousness of that risk.
+
+* There is no simple way to do this. You have to rely on your perception and experience of previous projects and the problems that arise in them.
 
 It is not possible to make an exact, the numerical estimate of the probability and seriousness of each risk. Instead, you should authorize the risk to one of several bands:
 
@@ -999,9 +1126,14 @@ It is not possible to make an exact, the numerical estimate of the probability a
 2.The effect of the risk might be determined as catastrophic (threaten the survival of the plan), serious (would cause significant delays), tolerable (delays are within allowed contingency), or insignificant.
 
 
-#### **Risk Control** 
+##### **Risk Control** 
+<br>
 
-It is the process of managing risks to achieve desired outcomes. After all, the identified risks of a plan are determined; the project must be made to include the most harmful and the most likely risks. Different risks need different containment methods. In fact, most risks need ingenuity on the part of the project manager in tackling the risk.
+* It is the process of managing risks to achieve desired outcomes. 
+
+* After all, the identified risks of a plan are determined; the project must be made to include the most harmful and the most likely risks. Different risks need different containment methods. 
+
+* Most risks need ingenuity on the part of the project manager in tackling the risk.
 
 There are three main methods to plan for risk management:
 
@@ -1011,13 +1143,18 @@ There are three main methods to plan for risk management:
 
 3.**Risk reduction**: This means planning method to include the loss due to risk. For instance, if there is a risk that some key personnel might leave, new recruitment can be planned.
 
-**Risk Leverage**: To choose between the various methods of handling risk, the project plan must consider the amount of controlling the risk and the corresponding reduction of risk. For this, the risk leverage of the various risks can be estimated.
+##### **Risk Leverage**
+<br>
+
+To choose between the various methods of handling risk, the project plan must consider the amount of controlling the risk and the corresponding reduction of risk. 
+
+For this, the risk leverage of the various risks can be estimated.
 
 Risk leverage is the variation in risk exposure divided by the amount of reducing the risk.
 
 Risk leverage = (risk exposure before reduction - risk exposure after reduction) / (cost of reduction)
 
-1.**Risk planning**: The risk planning method considers each of the key risks that have been identified and develop ways to maintain these risks.
+1.**Risk planning**:The risk planning method considers each of the key risks that have been identified and develop ways to maintain these risks.
 
 For each of the risks, you have to think of the behavior that you may take to minimize the disruption to the plan if the issue identified in the risk occurs.
 
@@ -1028,6 +1165,7 @@ Again, there is no easy process that can be followed for contingency planning. I
 2.**Risk Monitoring**: Risk monitoring is the method king that your assumption about the product, process, and business risks has not changed.
 
 ### **Project Scheduling**
+<br>
 
 Project-task scheduling is a significant project planning activity. It comprises deciding which functions would be taken up when. To schedule the project plan, a software project manager wants to do the following:
 
@@ -1045,20 +1183,27 @@ Project-task scheduling is a significant project planning activity. It comprises
 
 7.Determine the critical path. A critical way is the group of activities that decide the duration of the project.
 
-
-The first method in scheduling a software plan involves identifying all the functions required to complete the project. A good judgment of the intricacies of the project and the development process helps the supervisor to identify the critical role of the project effectively. Next, the large functions are broken down into a valid set of small activities which would be assigned to various engineers. The work breakdown structure formalism supports the manager to breakdown the function systematically after the project manager has broken down the purpose and constructs the work breakdown structure; he has to find the dependency among the activities. Dependency among the various activities determines the order in which the various events would be carried out. If an activity A necessary the results of another activity B, then activity A must be scheduled after activity B. In general, the function dependencies describe a partial ordering among functions, i.e., each service may precede a subset of other functions, but some functions might not have any precedence ordering describe between them (called concurrent function). The dependency among the activities is defined in the pattern of an activity network.
-
-Once the activity network representation has been processed out, resources are allocated to every activity. Resource allocation is usually done using a Gantt chart. After resource allocation is completed, a PERT chart representation is developed. The PERT chart representation is useful for program monitoring and control. For task scheduling, the project plan needs to decompose the project functions into a set of activities. The time frame when every activity is to be performed is to be determined. The end of every action is called a milestone. The project manager tracks the function of a project by audit the timely completion of the milestones. If he examines that the milestones start getting delayed, then he has to handle the activities carefully so that the complete deadline can still be met.
-
 ## Software Requirements
+<br>
 
-### **Software Requirement Specifications**
+* The production of the requirements stage of the software development process is Software Requirements Specifications (SRS) (also called a requirements document). 
 
-The production of the requirements stage of the software development process is Software Requirements Specifications (SRS) (also called a requirements document). This report lays a foundation for software engineering activities and is constructing when entire requirements are elicited and analyzed. SRS is a formal report, which acts as a representation of software that enables the customers to review whether it (SRS) is according to their requirements. Also, it comprises user requirements for a system as well as detailed specifications of the system requirements.
+* This report lays a foundation for software engineering activities and is constructing when entire requirements are elicited and analyzed. 
 
-The SRS is a specification for a specific software product, program, or set of applications that perform particular functions in a specific environment. It serves several goals depending on who is writing it. First, the SRS could be written by the client of a system. Second, the SRS could be written by a developer of the system. The two methods create entirely various situations and establish different purposes for the document altogether. The first case, SRS, is used to define the needs and expectation of the users. The second case, SRS, is written for various purposes and serves as a contract document between customer and developer.
+* SRS is a formal report, which acts as a representation of software that enables the customers to review whether it (SRS) is according to their requirements. Also, it comprises user requirements for a system as well as detailed specifications of the system requirements.
+
+* The SRS is a specification for a specific software product, program, or set of applications that perform particular functions in a specific environment. It serves several goals depending on who is writing it. 
+
+* First, the SRS could be written by the client of a system. 
+
+* Second, the SRS could be written by a developer of the system. 
+
+* The first case, SRS, is used to define the needs and expectation of the users.
+
+* The second case, SRS, is written for various purposes and serves as a contract document between customer and developer.
 
 ### **Characteristics of good SRS**
+<br>
 
 Following are the characteristics of a good SRS document:
 
@@ -1099,30 +1244,45 @@ Following are the characteristics of a good SRS document:
 **Verifiable**: All requirements of the system, as documented in the SRS document, should be correct. This means that it should be possible to decide whether or not requirements have been met in an implementation.
 
 ### **Requirement Analysis**
-Requirement analysis is significant and essential activity after elicitation. We analyze, refine, and examine the gathered requirements to make consistent and undeniable requirements. This activity reviews all requirements and may provide a graphical view of the entire system. After the completion of the analysis, it is expected that the understandability of the project may improve significantly. Here, we may also use the interaction with the customer to clarify points of confusion and to understand which requirements are more important than others.
+<br>
 
-The Requirement Analysis include the following steps :
+* Requirement analysis is significant and essential activity after elicitation. 
 
-**Draw the context diagram**: The context diagram is a simple model that defines the boundaries and interfaces of the proposed systems with the external world. It identifies the entities outside the proposed system that interact with the system.
+* We analyze, refine, and examine the gathered requirements to make consistent and undeniable requirements. 
 
-**Development of a Prototype (optional)**: One effective way to find out what the customer wants is to construct a prototype, something that looks and preferably acts as part of the system they say they want. We can use their feedback to modify the prototype until the customer is satisfied continuously. Hence, the prototype helps the client to visualize the proposed system and increase the understanding of the requirements. When developers and users are not sure about some of the elements, a prototype may help both the parties to take a final decision.
+* This activity reviews all requirements and may provide a graphical view of the entire system. 
 
-Some projects are developed for the general market. In such cases, the prototype should be shown to some representative sample of the population of potential purchasers. Even though a person who tries out a prototype may not buy the final system, but their feedback may allow us to make the product more attractive to others.
+* After the completion of the analysis, it is expected that the understandability of the project may improve significantly. 
 
-The prototype should be built quickly and at a relatively low cost. Hence it will always have limitations and would not be acceptable in the final system. This is an optional activity.
+* Here, we may also use the interaction with the customer to clarify points of confusion and to understand which requirements are more important than others.
 
-**Model the requirements**: This process usually consists of various graphical representations of the functions, data entities, external entities, and the relationships between them. The graphical view may help to find incorrect, inconsistent, missing, and superfluous requirements. Such models include the Data Flow diagram, Entity-Relationship diagram, Data Dictionaries, State-transition diagrams, etc.
 
-**Finalise the requirements**: After modeling the requirements, we will have a better understanding of the system behavior. The inconsistencies and ambiguities have been identified and corrected. The flow of data amongst various modules has been analyzed. Elicitation and analyze activities have provided better insight into the system. Now we finalize the analyzed requirements, and the next step is to document these requirements in a prescribed format.
+##### **Requirement Analysis steps**
+
+1.**Draw the context diagram**: The context diagram is a simple model that defines the boundaries and interfaces of the proposed systems with the external world. It identifies the entities outside the proposed system that interact with the system.
+
+2.**Development of a Prototype (optional)**: One effective way to find out what the customer wants is to construct a prototype, something that looks and preferably acts as part of the system they say they want. We can use their feedback to modify the prototype until the customer is satisfied continuously.
+
+    The prototype should be built quickly and at a relatively low cost. Hence it will always have limitations and would not be acceptable in the final system. This is an optional activity.
+
+3.**Model the requirements**: This process usually consists of various graphical representations of the functions, data entities, external entities, and the relationships between them. The graphical view may help to find incorrect, inconsistent, missing, and superfluous requirements. Such models include the Data Flow diagram, Entity-Relationship diagram, Data Dictionaries, State-transition diagrams, etc.
+
+4.**Finalise the requirements**: After modeling the requirements, we will have a better understanding of the system behavior. The inconsistencies and ambiguities have been identified and corrected. The flow of data amongst various modules has been analyzed. Now we finalize the analyzed requirements, and the next step is to document these requirements in a prescribed format.
 
 
 ## **Software Design**
+<br>
 
-#### **Software Design**
+* Software design is a mechanism to transform user requirements into some suitable form, which helps the programmer in software coding and implementation. 
 
-Software design is a mechanism to transform user requirements into some suitable form, which helps the programmer in software coding and implementation. It deals with representing the client's requirement, as described in SRS (Software Requirement Specification) document, into a form, i.e., easily implementable using programming language. The software design phase is the first step in SDLC, which moves the concentration from the problem domain to the solution domain. In software design, we consider the system to be a set of components or modules with clearly defined behaviors & boundaries.
+* It deals with representing the client's requirement, as described in SRS (Software Requirement Specification) document, into a form, i.e., easily implementable using programming language. 
 
-Objectives of Software Design
+* The software design phase is the first step in SDLC, which moves the concentration from the problem domain to the solution domain. 
+
+* In software design, we consider the system to be a set of components or modules with clearly defined behaviors & boundaries.
+
+##### **Objectives of Software Design**
+<br>
 
 1.**Correctness**:Software design should be correct as per requirement.
 
@@ -1137,12 +1297,14 @@ Objectives of Software Design
 6.**Maintainability**: The design should be so simple so that it can be easily maintainable by other designers.
 
 ### **Software Design Principles**
+<br>
 
 Software design principles are concerned with providing means to handle the complexity of the design process effectively. Effectively managing the complexity will not only reduce the effort needed for design but can also reduce the scope of introducing errors during design.
 
 The principles of Software Design are,
 
 ##### **Problem Partitioning**
+<br>
 
 For small problem, we can handle the entire problem at once but for the significant problem, divide the problem into smaller pieces so that each piece can be captured separately. The goal is to divide the problem into manageable pieces.
 
@@ -1163,6 +1325,8 @@ Pros of Problem Partitioning
 These pieces cannot be entirely independent of each other as they together form the system. They have to cooperate and communicate to solve the problem. This communication adds complexity.
 
 ##### **Abstraction**
+<br>
+
 An abstraction is a tool that enables a designer to consider a component at an abstract level without bothering about the internal details of the implementation. Abstraction can be used for existing element as well as the component being designed.
 
 Here, there are two common abstraction mechanisms
@@ -1183,8 +1347,12 @@ Functional abstraction forms the basis for Function oriented design approaches.
 Details of the data elements are not visible to the users of data. Data Abstraction forms the basis for Object Oriented design approaches.
 
 ##### **Modularity**
+<br>
 
-Modularity specifies to the division of software into separate modules which are differently named and addressed and are integrated later on in to obtain the completely functional software. It is the only property that allows a program to be intellectually manageable. Single large programs are difficult to understand and read due to a large number of reference variables, control paths, global variables, etc.
+Modularity specifies to the division of software into separate modules which are differently named and addressed and are integrated later on in to obtain the completely functional software.
+
+It is the only property that allows a program to be intellectually manageable. Single large programs are difficult to understand and read due to a large number of reference variables, control paths, global variables, etc.
+
 
 The desirable properties of a modular system are:
 
@@ -1198,7 +1366,8 @@ The desirable properties of a modular system are:
 
 5.Modules are simpler from outside than inside.
 
-**Pros of Modularity**
+###### **Pros of Modularity**
+<br>
 
 1.It allows large programs to be written by several or different people.
 
@@ -1212,7 +1381,8 @@ The desirable properties of a modular system are:
 
 6.It produced the well designed and more readable program.
 
-**Cons of Modularity**
+###### **Cons of Modularity**
+<br>
 
 1.Execution time maybe, but not certainly, longer.
 
@@ -1225,6 +1395,8 @@ The desirable properties of a modular system are:
 5.More linkage required, run-time may be longer, more source lines must be written, and more documentation has to be done.
 
 ##### **Modular Design**
+<br>
+
 Modular design reduces the design complexity and results in easier and faster implementation by allowing parallel development of various parts of a system. We discuss a different section of modular design in detail in this section:
 
 1.**Functional Independence**: Functional independence is achieved by developing functions that perform only one kind of task and do not excessively interact with other modules. Independence is important because it makes implementation more accessible and faster. The independent modules are easier to maintain, test, and reduce error propagation and can be reused in other programs as well. Thus, functional independence is a good design feature which ensures software quality.
@@ -1238,6 +1410,7 @@ It is measured using two criteria:
 2.**Information hiding**: The fundamental of Information hiding suggests that modules can be characterized by the design decisions that protect from the others, i.e., In other words, modules should be specified that data include within a module is inaccessible to other modules that do not need for such information.The use of information hiding as design criteria for modular system provides the most significant benefits when modifications are required during testing's and later during software maintenance. This is because as most data and procedures are hidden from other parts of the software, inadvertent errors introduced during modifications are less likely to propagate to different locations within the software.
 
 #####  **Strategy of Design**
+<br>
 
 A good system design strategy is to organize the program modules in such a method that are easy to develop and latter too, change. Structured design methods help developers to deal with the size and complexity of programs. Analysts generate instructions for the developers about how code should be composed and how pieces of code should fit together to form a program.
 
@@ -1255,13 +1428,17 @@ To design a system, there are two possible approaches:
 
 ![bottom-up approach](/images/bottom-up-approach.png)
 
-### **Coupling and Cohesion**
+### **Coupling**
 
-##### **Module Coupling**
+* In software engineering, the coupling is the degree of interdependence between software modules.
 
-In software engineering, the coupling is the degree of interdependence between software modules. Two modules that are tightly coupled are strongly dependent on each other. However, two modules that are loosely coupled are not dependent on each other. Uncoupled modules have no interdependence at all within them.
+*  Two modules that are tightly coupled are strongly dependent on each other. However, two modules that are loosely coupled are not dependent on each other. 
 
-A good design is the one that has low coupling. Coupling is measured by the number of relations between the modules. That is, the coupling increases as the number of calls between modules increase or the amount of shared data is large. Thus, it can be said that a design with high coupling will have more errors.
+* Uncoupled modules have no interdependence at all within them.
+
+* A good design is the one that has low coupling. 
+
+* Coupling is measured by the number of relations between the modules. That is, the coupling increases as the number of calls between modules increase or the amount of shared data is large. Thus, it can be said that a design with high coupling will have more errors.
 
 ![Module Coupling](/images/coupling.png)
 
@@ -1290,14 +1467,15 @@ In this case, modules are subordinates to different modules. Therefore, no direc
 
 7.**Content Coupling**: Content Coupling exists among two modules if they share code, e.g., a branch from one module into another module.
 
-##### **Module Cohesion**
+### **Cohesion**
+<br>
 
-In computer programming, cohesion defines to the degree to which the elements of a module belong together. Thus, cohesion measures the strength of relationships between pieces of functionality within a given module. For example, in highly cohesive systems, functionality is strongly related.
-Cohesion is an ordinal type of measurement and is generally described as "high cohesion" or "low cohesion."
+In computer programming, cohesion defines to the degree to which the elements of a module belong together. Thus, cohesion measures the strength of relationships between pieces of functionality within a given module. 
 
 ![module cohesion](/images/cohesion.png)
 
 ##### **Types of Cohesion**
+<br>
 
 1.**Functional Cohesion**: Functional Cohesion is said to exist if the different elements of a module, cooperate to achieve a single function.
 
@@ -1314,10 +1492,15 @@ Cohesion is an ordinal type of measurement and is generally described as "high c
 7.**Coincidental Cohesion**: A module is said to have coincidental cohesion if it performs a set of tasks that are associated with each other very loosely, if at all.
 
 ## **Coding**
+<br>
 
-### **Coding**
+* The coding is the process of transforming the design of a system into a computer language format.
 
-The coding is the process of transforming the design of a system into a computer language format. Coding is done by the coder or programmers who are independent people than the designer. The goal is not to reduce the effort and cost of the coding phase, but to cut to the cost of a later stage. The cost of testing and maintenance can be significantly reduced with efficient coding.
+* Coding is done by the coder or programmers who are independent people than the designer. 
+
+* The goal is not to reduce the effort and cost of the coding phase, but to cut to the cost of a later stage. 
+
+* The cost of testing and maintenance can be significantly reduced with efficient coding.
 
 **Goals of Coding**
 
@@ -1328,6 +1511,7 @@ The coding is the process of transforming the design of a system into a computer
 3.**Making the program more readable**: Program should be easy to read and understand. It increases code understanding having readability and understandability as a clear objective of the coding activity can itself help in producing more maintainable software.
 
 ### **Characteristics of Programming Language**
+<br>
 
 1.**Readability**: A good high-level language will allow programs to be written in some methods that resemble a quite-English description of the underlying functions. The coding may be done in an essentially self-documenting way.
 
@@ -1350,6 +1534,8 @@ The coding is the process of transforming the design of a system into a computer
 10.**Widely available**: Language should be widely available, and it should be feasible to provide translators for all the major machines and all the primary operating systems.
 
 ##### **Coding Standards**
+<br>
+
 General coding standards refers to how the developer writes code, so here we will discuss some essential standards regardless of the programming language being used.
 
 The following are some representative coding standards:
@@ -1375,6 +1561,8 @@ Indentation should be used to:
 6.**Error return conventions and exception handling system**: Different functions in a program report the way error conditions are handled should be standard within an organization. For example, different tasks while encountering an error condition should either return a 0 or 1 consistently.
 
 ##### **Coding Guidelines**
+<br>
+
 General coding guidelines provide the programmer with a set of the best methods which can be used to make programs more comfortable to read and maintain.
 
 1.**Line Length**: It is considered a good practice to keep the length of source code lines at or below 80 characters. Lines longer than this may not be visible properly on some terminals and tools. Some printers will truncate lines longer than 80 columns.
@@ -1392,10 +1580,18 @@ General coding guidelines provide the programmer with a set of the best methods 
 7.**Error Messages**: Error handling is an essential aspect of computer programming. This does not only include adding the necessary logic to test for and handle errors but also involves making error messages meaningful.
 
 ### **Programming Style**
+<br>
 
-Programming style refers to the technique used in writing the source code for a computer program. Most programming styles are designed to help programmers quickly read and understands the program as well as avoid making errors.The goal of good programming style is to provide understandable, straightforward, elegant code. The programming style used in a various program may be derived from the coding standards or code conventions of a company or other computing organization, as well as the preferences of the actual programmer.
+* Programming style refers to the technique used in writing the source code for a computer program. 
 
-Guidelines in respect of programming style:
+*  Most programming styles are designed to help programmers quickly read and understands the program as well as avoid making errors.
+
+* The goal of good programming style is to provide understandable, straightforward, elegant code.
+
+* The programming style used in a various program may be derived from the coding standards or code conventions of a company or other computing organization, as well as the preferences of the actual programmer.
+
+##### **Guidelines in respect of programming style**
+<br>
 
 1.**Clarity and simplicity of Expression**: The programs should be designed in such a manner so that the objectives of the program is clear.
 
@@ -1415,26 +1611,43 @@ Guidelines in respect of programming style:
 
 9.**Side-effects**: When a module is invoked, it sometimes has a side effect of modifying the program state. Such side-effect should be avoided where as possible.
 
-## **SoftwareTesting**
+## **Software Testing**
 
-### **What is SoftwareTesting**
-Software testing is a process of identifying the correctness of a software by considering its all attributes (Reliability, Scalability, Portability, Re-usability, Usability) and evaluating the execution of software components to find the software bugs or errors or defects.
+**What is SoftwareTesting**
 
-Software testing provides an independent view and objective of the software and gives surety of fitness of the software. It involves testing of all components under the required services to confirm that whether it is satisfying the specified requirements or not. The process is also providing the client with information about the quality of the software.
+* Software testing is a process of identifying the correctness of a software by considering its all attributes (Reliability, Scalability, Portability, Re-usability, Usability) and evaluating the execution of software components to find the software bugs or errors or defects.
+
+* Software testing provides an independent view and objective of the software and gives surety of fitness of the software. 
+
+* It involves testing of all components under the required services to confirm that whether it is satisfying the specified requirements or not. 
+
+* The process is also providing the client with information about the quality of the software.
 
 Testing is mandatory because it will be a dangerous situation if the software fails any of time due to lack of testing. So, without testing software cannot be deployed to the end user.
 
-### **What is Testing** 
-Testing is a group of techniques to determine the correctness of the application under the predefined script but, testing cannot find all the defect of application. The main intent of testing is to detect failures of the application so that failures can be discovered and corrected. It does not demonstrate that a product functions properly under all conditions but only that it is not working in some specific conditions.
+### **What is Testing**
+<br> 
 
-Testing includes an examination of code and also the execution of code in various environments, conditions as well as all the examining aspects of the code. In the current scenario of software development, a testing team may be separate from the development team so that Information derived from testing can be used to correct the process of software development.
+* Testing is a group of techniques to determine the correctness of the application under the predefined script but, testing cannot find all the defect of application. 
+
+* The main intent of testing is to detect failures of the application so that failures can be discovered and corrected. 
+
+* It does not demonstrate that a product functions properly under all conditions but only that it is not working in some specific conditions.
+
+* Testing includes an examination of code and also the execution of code in various environments, conditions as well as all the examining aspects of the code.
 
 The success of software depends upon acceptance of its targeted audience, easy graphical user interface, strong functionality load test, etc.
 
 ### **Manual Testing**
-Manual testing is a software testing process in which test cases are executed manually without using any automated tool. All test cases executed by the tester manually according to the end user's perspective. It ensures whether the application is working as mentioned in the requirement document or not. Test cases are planned and implemented to complete almost 100 percent of the software application. Test case reports are also generated manually.
+<br>
 
-Manual testing is a software testing process in which test cases are executed manually without using any automated tool. All test cases executed by the tester manually according to the end user's perspective. It ensures whether the application is working as mentioned in the requirement document or not. Test cases are planned and implemented to complete almost 100 percent of the software application. Test case reports are also generated manually.
+* Manual testing is a software testing process in which test cases are executed manually without using any automated tool. 
+
+* All test cases executed by the tester manually according to the end user's perspective. 
+
+* It ensures whether the application is working as mentioned in the requirement document or not.
+
+* Test cases are planned and implemented to complete almost 100 percent of the software application. Test case reports are also generated manually.
 
 Manual testing is mandatory for every newly developed software before automated testing. This testing requires great efforts and time, but it gives the surety of bug-free software.Manual testing is essential because one of the software testing fundamentals is "100% automation is not possible."
 
@@ -1455,6 +1668,8 @@ Types of Manual Testing:
 6.Acceptance Testing
 
 ##### **How to perform Manual Testing**
+<br>
+
 1.First, tester examines all documents related to software, to select testing areas. 
 
 2.Tester analyses requirement document to cover all requirements stated by the customer.
@@ -1468,6 +1683,8 @@ Types of Manual Testing:
 6.Development team fixes bugs and handed software to the testing team for retesting.
 
 ##### **Pros of Manual Testing**
+<br>
+
 1.It does not require programming knowledge while using the Black box method. 
 
 2.It is used to test dynamically changing GUI designs. 
@@ -1481,6 +1698,7 @@ Types of Manual Testing:
 6.Easy to learn for new testers.
 
 ##### **Cons of Manual Testing**
+<br>
 
 1.It requires a large number of human resources. 
 
@@ -1495,6 +1713,7 @@ Types of Manual Testing:
 6.Since two teams work together, sometimes it is difficult to understand each other's motives, it can mislead the process.
 
 ##### **Manual testing tools**
+<br>
 
 **Selenium**
 
@@ -1525,14 +1744,20 @@ JMeter is used for load testing of any application.
 Mantis is used for bug tracking.
 
 ### **Automation Testing**
+<br>
 
-When the testing case suites are performed by using automated testing tools is known as Automation Testing. The testing process is done by using special automation tools to control the execution of test cases and compare the actual result with the expected result. Automation testing requires a pretty huge investment of resources and money.
+* When the testing case suites are performed by using automated testing tools is known as Automation Testing. 
 
-Generally, repetitive actions are tested in automated testing such as regression tests. The testing tools used in automation testing are used not only for regression testing but also for automated GUI interaction, data set up generation, defect logging, and product installation. 
+* The testing process is done by using special automation tools to control the execution of test cases and compare the actual result with the expected result. Automation testing requires a pretty huge investment of resources and money.
+
+* Generally, repetitive actions are tested in automated testing such as regression tests.
+
+* The testing tools used in automation testing are used not only for regression testing but also for automated GUI interaction, data set up generation, defect logging, and product installation. 
 
 The goal of automation testing is to reduce manual test cases but not to eliminate any of them. Test suits can be recorded by using the automation tools, and tester can play these suits again as per the requirement. Automated testing suites do not require any human intervention.
 
 ##### **Pros of Automation testing**
+<br>
 
 1.Automation testing takes less time than manual testing. 
 
@@ -1549,6 +1774,7 @@ The goal of automation testing is to reduce manual test cases but not to elimina
 7.The cost of automation testing is less than manual testing because it requires a few human resources.
 
 ##### **Cons of Automation testing**
+<br>
 
 1.Automation Testing requires high-level skilled testers.
 
@@ -1561,9 +1787,13 @@ The goal of automation testing is to reduce manual test cases but not to elimina
 5.Debugging is mandatory if a less effective error has not been solved, it can lead to fatal results.
 
 ## **Software Maintenance**
+<br>
 
-### **Software Maintenance**
-Software maintenance is a part of the Software Development Life Cycle. Its primary goal is to modify and update software application after delivery to correct errors and to improve performance. Software is a model of the real world. When the real world changes, the software require alteration wherever possible.Software Maintenance is an inclusive activity that includes error corrections, enhancement of capabilities, deletion of obsolete capabilities, and optimization.
+* Its primary goal is to modify and update software application after delivery to correct errors and to improve performance. Software is a model of the real world. 
+
+* When the real world changes, the software require alteration wherever possible.
+
+* Software Maintenance is an inclusive activity that includes error corrections, enhancement of capabilities, deletion of obsolete capabilities, and optimization.
 
 **Need for Maintenance**
 
@@ -1582,6 +1812,7 @@ Software maintenance is a part of the Software Development Life Cycle. Its prima
 7.To reduce any unwanted side effects
 
 ##### **Types of Software Maintenance**
+<br>
 
 1.**Corrective Maintenance**:Corrective maintenance aims to correct any remaining errors regardless of where they may cause specifications, design, coding, testing, and documentation, etc.
 
@@ -1592,50 +1823,52 @@ Software maintenance is a part of the Software Development Life Cycle. Its prima
 4.**Perfective Maintenance**:It defines improving processing efficiency or performance or restricting the software to enhance changeability. This may contain enhancement of existing system functionality, improvement in computational efficiency, etc.
 
 ### **Causes of Software Maintenance Problems**
+<br>
 
-**Lack of Traceability**
+1.**Lack of Traceability**
 
-1.Codes are rarely traceable to the requirements and design specifications.
+* Codes are rarely traceable to the requirements and design specifications.
 
-2.It makes it very difficult for a programmer to detect and correct a critical defect affecting customer operations.
+* It makes it very difficult for a programmer to detect and correct a critical defect affecting customer operations.
 
-3.Like a detective, the programmer pores over the program looking for clues.
+* Like a detective, the programmer pores over the program looking for clues.
 
-4.Life Cycle documents are not always produced even as part of a development project.
+* Life Cycle documents are not always produced even as part of a development project.
 
-**Lack of Code Comments**
+2.**Lack of Code Comments**
 
-Most of the software system codes lack adequate comments. Lesser comments may not be helpful in certain situations.
+   Most of the software system codes lack adequate comments. Lesser comments may not be helpful in certain situations.
 
-**Obsolete Legacy Systems**
+3.**Obsolete Legacy Systems**
 
-1.In most of the countries worldwide, the legacy system that provides the backbone of the nation's critical industries, e.g., telecommunications, medical, transportation utility services, were not designed with maintenance in mind.
+* In most of the countries worldwide, the legacy system that provides the backbone of the nation's critical industries, e.g., telecommunications, medical, transportation utility services, were not designed with maintenance in mind.
 
-2.They were not expected to last for a quarter of a century or more!.
+* They were not expected to last for a quarter of a century or more!.
 
-3.As a consequence, the code supporting these systems is devoid of traceability to the requirements, compliance to design and programming standards and often includes dead, extra and uncommented code, which all make the maintenance task next to the impossible.
+* As a consequence, the code supporting these systems is devoid of traceability to the requirements, compliance to design and programming standards and often includes dead, extra and uncommented code, which all make the maintenance task next to the impossible.
 
 ##### **Software Maintenance Process**
+<br>
 
 ![Software maintenance process](/images/causes-of-software-maintenance-problems.png)
 
-**Program Understanding**
+1.**Program Understanding**
 
 The first step consists of analyzing the program to understand.
 
-**Generating a Particular maintenance problem**
+2.**Generating a Particular maintenance problem**
 
 The second phase consists of creating a particular maintenance proposal to accomplish the implementation of the maintenance goals.
 
-**Ripple Effect**
+3.**Ripple Effect**
 
 The third step consists of accounting for all of the ripple effects as a consequence of program modifications.
 
-**Modified Program Testing**
+4.**Modified Program Testing**
 
 The fourth step consists of testing the modified program to ensure that the revised application has at least the same reliability level as prior.
 
-**Maintainability**
+5.**Maintainability**
 
 Each of these four steps and their associated software quality attributes is critical to the maintenance process. All of these methods must be combined to form maintainability.
 
