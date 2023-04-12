@@ -1303,6 +1303,17 @@ Software design principles are concerned with providing means to handle the comp
 
 The principles of Software Design are,
 
+[**Problem Partitioning**](#problem-partitioning)
+
+[**Abstraction**](#abstraction)
+
+[**Modularity**](#modularity)
+
+[**Modular design**](#modular-design)
+
+[**Strategy of Design**](#strategy-of-design)
+
+
 ##### **Problem Partitioning**
 <br>
 
@@ -1410,6 +1421,7 @@ It is measured using two criteria:
 2.**Information hiding**: The fundamental of Information hiding suggests that modules can be characterized by the design decisions that protect from the others, i.e., In other words, modules should be specified that data include within a module is inaccessible to other modules that do not need for such information.The use of information hiding as design criteria for modular system provides the most significant benefits when modifications are required during testing's and later during software maintenance. This is because as most data and procedures are hidden from other parts of the software, inadvertent errors introduced during modifications are less likely to propagate to different locations within the software.
 
 #####  **Strategy of Design**
+
 <br>
 
 A good system design strategy is to organize the program modules in such a method that are easy to develop and latter too, change. Structured design methods help developers to deal with the size and complexity of programs. Analysts generate instructions for the developers about how code should be composed and how pieces of code should fit together to form a program.
@@ -1427,6 +1439,7 @@ To design a system, there are two possible approaches:
 2.**Bottom-up Approach**: A bottom-up approach begins with the lower details and moves towards up the hierarchy, as shown in fig. This approach is suitable in case of an existing system.
 
 ![bottom-up approach](/images/bottom-up-approach.png)
+
 
 ### **Coupling**
 
@@ -1711,37 +1724,6 @@ Types of Manual Testing:
 5.It does not provide testing on all aspects of testing.
 
 6.Since two teams work together, sometimes it is difficult to understand each other's motives, it can mislead the process.
-
-##### **Manual testing tools**
-<br>
-
-**Selenium**
-
- Selenium is used to test the Web Application. 
-
-**Appium**
-
-Appium is used to test the mobile application.
-
-**TestLink**
-
-TestLink is used for test management.
-
-**Postman**
-
-Postman is used for API testing.
-
-**Firebug**
-
-Firebug is an online debugger.
-
-**JMeter**
-
-JMeter is used for load testing of any application.
-
-**Mantis**
-
-Mantis is used for bug tracking.
 
 ### **Automation Testing**
 <br>
