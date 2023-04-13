@@ -980,54 +980,34 @@ In general, cost drivers can be grouped into four categories:
 
 * Required development schedule (SCED)
 
+Intermediate COCOMO equation:
+
+E=a(KLOC)b*EAF
+
+D=c(E)d
+
 
 ![intermediatecocomo](images/intermediatecocomo.PNG)<!-- style = "width:550px; height:400px;margin-left:180px;"-->
 
 ##### **Detailed Model**
 
-* In detailed COCOMO, a large amount of work has been done by Boehm to cover all essential aspects of software development. 
+Detailed COCOMO incorporates all qualities of the standard version with an assessment of the cost drivers effect on each method of the software engineering process. The detailed model uses various effort multipliers for each cost driver property. In detailed cocomo, the whole software is differentiated into multiple modules, and then we apply COCOMO in various modules to estimate effort and then sum the effort.
 
-* It offers a medium to process all the project characteristics for calculating the software estimation. 
+The Six phases of detailed COCOMO are:
 
-The detailed model introduces two more capabilities that are as follows:
+1.Planning and requirements
 
-1.**Phase-sensitive effort multiplier**:Some phases (like design, programming, integration/test) are more affected than others by factors defined by the cost drivers. The detailed model provides a set of phase-sensitive effort multipliers for each cost driver. This helps in determining the workforce allocation for each phase of the project.
+2.System structure
 
-2.**Three-level product hierarchy**: In the three-level product hierarchy, there are a module, subsystem, and system levels. The ratings of the cost driver are done at an appropriate level, i.e., the level at which it is most affected by the variation.
+3.Complete structure
 
-###### **Development phase**
+4.Module code and test
 
-Software development is done in four phases:
+5.Integration and test
 
-1.**Plans/requirements**
+6.Cost Constructive model
 
-* In this phase, the requirements are analyzed, the product plan is set up, and a full product specification is generated for software development.
-
-* The developers have to give 6% to 8% of the effort and 10% to 40% of the development time.
-
-2.**Product design**
-
-* The software requirements required by the customers are kept in the mind of the designer while designing software.
-
-* There are two types of designs that are designed by the designer;conceptual design and technical design. 
-
-* Conceptual design tells the customer what the system will exactly do. When the customer approves the design, this process is called validation. 
-
-* Then the conceptual design is converted into a more detailed form of technical design, which helps the developer to understand the hardware and software needs to fulfill the customer's requirement. 
-
-3.**Programming**
-
-* This is the phase where development starts.
-
-* This phase is divided into two sub-phases: detailed design and code/unit test.
-
-* This phase requires an effort from 48% to 68% and necessitate 24% to 64% of the development time to finish the coding.
-
-4.**Integration/Test**
-
-* In the integration testing, individual units are combined and tested as a whole. 
-
-* The purpose of this level of testing is to expose faults in the interaction between integrated units.
+The effort is determined as a function of program estimate, and a set of cost drivers are given according to every phase of the software lifecycle
 
 ## Risk management 
 <br>
