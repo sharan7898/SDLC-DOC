@@ -1434,11 +1434,11 @@ To design a system, there are two possible approaches:
 
 1.**Top-down Approach**: This approach starts with the identification of the main components and then decomposing them into their more detailed sub-components.
 
-![top-down approach](/images/top-down-approach.png)
+![top-down approach](images/top-down-approach.png)
 
 2.**Bottom-up Approach**: A bottom-up approach begins with the lower details and moves towards up the hierarchy, as shown in fig. This approach is suitable in case of an existing system.
 
-![bottom-up approach](/images/bottom-up-approach.png)
+![bottom-up approach](images/bottom-up-approach.png)
 
 
 ### **Coupling**
@@ -1453,7 +1453,7 @@ To design a system, there are two possible approaches:
 
 * Coupling is measured by the number of relations between the modules. That is, the coupling increases as the number of calls between modules increase or the amount of shared data is large. Thus, it can be said that a design with high coupling will have more errors.
 
-![Module Coupling](/images/coupling.png)
+![Module Coupling](images/coupling.png)
 
 ##### **Types of Coupling**
 
@@ -1462,11 +1462,11 @@ Types of Module Coupling
 1.**No Direct Coupling**: There is no direct coupling between M1 and M2.
 In this case, modules are subordinates to different modules. Therefore, no direct coupling.
 
-![no-direct coupling](/images/no-direct-coupling.png)
+![no-direct coupling](images/no-direct-coupling.png)
 
 2.**Data Coupling**: When data of one module is passed to another module, this is called data coupling.
 
-![data coupling](/images/data-coupling.png)
+![data coupling](images/data-coupling.png)
 
 3.**Stamp Coupling**: Two modules are stamp coupled if they communicate using composite data items such as structure, objects, etc. When the module passes non-global data structure or entire structure to another module, they are said to be stamp coupled. For example, passing structure variable in C or object in C++ language to a module.
 
@@ -1476,7 +1476,7 @@ In this case, modules are subordinates to different modules. Therefore, no direc
 
 6.**Common Coupling**: Two modules are common coupled if they share information through some global data items.
 
-![common coupling](/images/common-coupling.png)
+![common coupling](images/common-coupling.png)
 
 7.**Content Coupling**: Content Coupling exists among two modules if they share code, e.g., a branch from one module into another module.
 
@@ -1485,7 +1485,7 @@ In this case, modules are subordinates to different modules. Therefore, no direc
 
 In computer programming, cohesion defines to the degree to which the elements of a module belong together. Thus, cohesion measures the strength of relationships between pieces of functionality within a given module. 
 
-![module cohesion](/images/cohesion.png)
+![module cohesion](images/cohesion.png)
 
 ##### **Types of Cohesion**
 <br>
@@ -1832,7 +1832,7 @@ The goal of automation testing is to reduce manual test cases but not to elimina
 ##### **Software Maintenance Process**
 <br>
 
-![Software maintenance process](/images/causes-of-software-maintenance-problems.png)
+![Software maintenance process](images/causes-of-software-maintenance-problems.png)
 
 1.**Program Understanding**
 
