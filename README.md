@@ -4,25 +4,25 @@
 
 * Software Development Life Cycle  is  used by the software industry to design, develop and test high quality softwares. 
 
-            [**What is SDLC**](#what-is-sdlc)
+1.[**What is SDLC**](#what-is-sdlc)
 
-            [**SDLC Models**](#sdlc-models)
+2.[**SDLC Models**](#sdlc-models)
 
-            [**Software Management**](#software-management)
+3.[**Software Management**](#software-management)
 
-            [**Project Planning**](#project-planning)
+4.[**Project Planning**](#project-planning)
 
-            [**Risk Management**](#risk-management)
+5.[**Risk Management**](#risk-management)
 
-            [**Software Requirements**](#software-requirements)
+6.[**Software Requirements**](#software-requirements)
 
-            [**Software Design**](#software-design)
+7.[**Software Design**](#software-design)
 
-            [**Coding**](#coding)
+8.[**Coding**](#coding)
 
-            [**Software Testing**](#software-testing)
+9.[**Software Testing**](#software-testing)
 
-            [**Software Maintenance**](#software-maintenance)
+10.[**Software Maintenance**](#software-maintenance)
 
 ## **What is SDLC**
 
